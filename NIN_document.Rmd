@@ -1,0 +1,27 @@
+---
+title: "Spotify Project Document"
+author: "Nissa Ferm"
+date: "6/24/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Project Description
+One of my favorite bands as a teenager was Nine Inch Nails. I remember watching the music video to Head Like a Hole being blown away. Trent Reznor was my new teenage crush. It wasn't until I was in my twenties that I finally got to go see NIN live, with Queens of the Stone Age! I dressed in the black vinly and leather pieces I had in my closet along with my coveted knee high Doc Martins. My inner teenager squeed with delight. I don't listen to NIN as much as I used too and I have a healthy appriciation for more mellow music. Do we loose that need for super angsty/angry music as we age? This led me to ask two questions about the NIN. 
+  
+  *Hypothiesis One: As Trent Reznor and NIN aged; the musical positivity, measured as valence, increased over time.*
+
+The other question has to do with Head Like a Hole in particular, as that was my gateway into NIN. There have been plenty of covers of this song since it came out, cough cough in 1989. According to Second Hand Songs[https://secondhandsongs.com/performance/1086/versions#nav-entity] there are 20 cover versions of Head Like a Hole. 
+
+  *Hypothesis Two: Do the cover versions maintain the same musical positivity, measured as valence, as the original?*
+  
+In order to test these two hypothesis we will use the R package SpotifyR[https://github.com/charlie86/spotifyr]. 
+
+```{r}
+library(spotifyr)
+library(tidyverse)
+```
+
