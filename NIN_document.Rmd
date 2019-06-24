@@ -9,8 +9,10 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Project Description
-One of my favorite bands as a teenager was Nine Inch Nails. I remember watching the music video to Head Like a Hole being blown away. Trent Reznor was my new teenage crush. It wasn't until I was in my twenties that I finally got to go see NIN live, with Queens of the Stone Age! I dressed in the black vinly and leather pieces I had in my closet along with my coveted knee high Doc Martins. My inner teenager squeed with delight. I don't listen to NIN as much as I used too and I have a healthy appriciation for more mellow music. Do we loose that need for super angsty/angry music as we age? This led me to ask two questions about the NIN. 
+
+One of my favorite bands as a teenager was Nine Inch Nails. I remember watching the music video Head Like a Hole and being blown away. Trent Reznor was my new teenage crush. It wasn't until I was in my twenties that I finally got to go see NIN live, with Queens of the Stone Age! I dressed in the black vinly and leather pieces I had in my closet along with my coveted knee high Doc Martins. My inner teenager squeed with delight. I don't listen to NIN as much as I used too, mainly becasue my musical tastes have changed and expanded since I was a teenager. Even though the music of the earlier albums was angst ridden and rough it pumped me up. I would listen to the albums over and over again. I had Pretty Hate Machine on tape and I wore that poor tape out on my yellow Sports Sony walkman with the Super Bass button down. Do we loose that need for super angsty/angry music as we age? Do the albums shift how they make me feel over time? 
+
+This led me to ask two questions about the NIN. 
   
   *Hypothiesis One: As Trent Reznor and NIN aged; the musical positivity, measured as valence, increased over time.*
 
@@ -21,7 +23,120 @@ The other question has to do with Head Like a Hole in particular, as that was my
 In order to test these two hypothesis we will use the R package SpotifyR[https://github.com/charlie86/spotifyr]. 
 
 ```{r}
+#devtools::install_github('charlie86/spotifyr')
 library(spotifyr)
 library(tidyverse)
+library(lubridate)
 ```
 
+Access tokens
+```{r eval=FALSE, include=FALSE}
+Sys.setenv(SPOTIFY_CLIENT_ID = '6d375c1d8d904765852f8a7e07f8758f')
+Sys.setenv(SPOTIFY_CLIENT_SECRET = 'e54289a3745943388ef262e60cd801b6')
+
+access_token <- get_spotify_access_token()
+```
+
+Get data for Nine Inch Nails
+
+```{r eval=FALSE, include=FALSE}
+nin_data <- get_artist_audio_features(artist = "nine inch nails",
+                                      return_closest_artist = TRUE,
+                                      authorization = access_token)
+nin_tibble <- nin_data %>% 
+  select(artist_name, album_name,track_name,track_number, album_release_date,
+         danceability:tempo, duration_ms, key_name:key_mode) %>%
+  as_tibble()
+
+
+write_csv(nin_tibble, "nin_audio_features_data.csv")
+```
+
+```{r}
+nin_data <- read_csv("nin_audio_features_data.csv")
+```
+
+```{r}
+# studio album names
+studio_albums <- c("Pretty Hate Machine", "The Downward Spiral", "The Fragile",
+                   "With Teeth", "Year Zero", "Ghosts I-IV", 
+                   "The Slip", "Hesitation Marks" ,"Bad Witch") 
+```
+  Limit the analysis to the nine standard studio albums. The nine studio albums are `r studio_albums` according to wikipedia[https://en.wikipedia.org/wiki/Nine_Inch_Nails_discography#Studio_albums]. It does not include bonus tracks.  There are some duplications in the dataset, which look like they stem from significant digit level. We need to remove the duplicates. The duplicates are removed by using album_name and track_name. Don't use track number this would filter out multiple disks from a single album. Also convert the album_release_date which is a character into a Date format using lubridate. Also let's add Trent Reznors age.  
+  First a little bit about what valence means as a positivity measure for a song. From my background valence is a term I remember from chemistry and physics. But in the Spotify world it has nothing to do with orbitals and electrons. This is how Spotify defines valence, 
+    "A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry)." The definition can be found in the API documentation[https://developer.spotify.com/documentation/web-api/reference/tracks/get-several-audio-features/]. So, valence is how the music makes me feel, not necessarily how the artist feels while they are making the music. Or is it? 
+
+
+```{r}
+nin_nine_albums <-  nin_data %>%
+  filter(album_name %in% studio_albums) %>%
+  mutate(album_release_date = lubridate::ymd(album_release_date))%>%
+  distinct(album_name, track_name, .keep_all = TRUE) %>%
+  mutate(Trent_Reznor_age = 
+           #We are going to ignore leap years
+          as.integer((album_release_date - lubridate::ymd("1965-05-17") )/365)) %>%
+  # match the happiness study bins, with an estimate of subrtract two for age of working
+  # on album.
+  mutate(four_year_bins = cut(Trent_Reznor_age - 2, 
+                              breaks = seq(from = 18, to = 86, by = 4),
+                              labels = c("18-21", "22-25", "26-29", "30-33", "34-37",
+                                         "38-41", "42-45", "46-49", "50-53", "54-57",
+                                         "58-61", "62-65", "66-69", "70-73", "74-77",
+                                         "78-81", "82-85")))
+```
+
+plot valence data
+```{r}
+ggplot(data = nin_nine_albums)+
+  geom_jitter(aes(x = lubridate::year(album_release_date), y = valence,
+                   color = album_name))+
+  geom_smooth(aes(x = lubridate::year(album_release_date), y = valence),
+              smooth = "loess")+
+  geom_boxplot(aes(x = lubridate::year(album_release_date), y = valence,
+                   color = album_name), alpha = 0.3, outlier.colour = "red")
+
+```
+It might be a stretch but this plot reminds me of the happiness/ well being by age studies with the plataue and U bend in self reported happiness. Read up on the happiness study here [https://www.pnas.org/content/107/22/9985].  Since I don't have access to the original data I can use the WebPlotDigitizer[https://automeris.io/WebPlotDigitizer/] on the jpeg from the research paper, then download the .csv file and then read it into R. 
+```{r}
+happiness_data <- read_delim("happiness_data.csv", ";", escape_double = FALSE, 
+                             trim_ws = TRUE) %>% select(Level, four_year_bins, WB_Ladder)
+```
+
+```{r}
+trent_happy_plot <- nin_nine_albums %>%
+  group_by(four_year_bins)%>%
+  mutate(mean_valence = mean(valence, na.rm = TRUE))%>%
+  distinct(four_year_bins, .keep_all = TRUE)%>%
+  select(Trent_Reznor_age, four_year_bins, mean_valence)%>%
+  full_join(happiness_data, by = "four_year_bins")%>%
+  gather(`mean_valence`, `WB_Ladder`, key = "Study", value = "value")
+```
+
+
+```{r}
+ggplot(data = trent_happy_plot)+
+  geom_point(aes(Level, value))+
+  geom_line(aes(Level, value), na.rm = FALSE)+
+  facet_wrap(~ Study, nrow = 2, scales = "free_y", strip.position = "right")
+```
+
+```{r}
+
+trent_glm <- glm(Trent_Reznor_age ~ valence + danceability + energy + tempo, 
+                 data = nin_nine_albums)
+plot(trent_glm)
+```
+
+```{r}
+library(gam)
+```
+
+```{r}
+trent_gam <- gam(Trent_Reznor_age ~ valence , 
+                 data = nin_nine_albums)
+
+```
+
+```{r}
+plot(trent_gam, se = TRUE)
+```
