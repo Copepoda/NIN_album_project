@@ -1,0 +1,387 @@
+artist_name,album_name,track_name,track_number,album_release_date,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,key_name,mode_name,key_mode
+Nine Inch Nails,Bad Witch,Shit Mirror,1,2018-06-22,0.297,0.943,2,-5.207,0,0.214,0.00273,0.888,0.278,0.142,79.96,186072,D,minor,D minor
+Nine Inch Nails,Bad Witch,Ahead of Ourselves,2,2018-06-22,0.598,0.986,7,-6.766,1,0.097,0.119,0.724,0.11,0.445,162.036,210561,G,major,G major
+Nine Inch Nails,Bad Witch,Play the Goddamned Part,3,2018-06-22,0.59,0.722,2,-8.003,1,0.0383,0.154,0.812,0.0832,0.392,152.086,291386,D,major,D major
+Nine Inch Nails,Bad Witch,God Break Down the Door,4,2018-06-22,0.33,0.971,0,-4.543,1,0.139,0.269,0.945,0.155,0.153,113.931,254957,C,major,C major
+Nine Inch Nails,Bad Witch,I'm Not from This World,5,2018-06-22,0.273,0.477,2,-14.56,0,0.0973,0.777,0.886,0.108,0.191,192.029,401853,D,minor,D minor
+Nine Inch Nails,Bad Witch,Over and Out,6,2018-06-22,0.374,0.575,2,-10.251,0,0.0497,0.416,0.818,0.0671,0.0387,140.116,469897,D,minor,D minor
+Nine Inch Nails,Recoiled,Gave Up - Open My Eyes,1,2014-02-24,0.551,0.934,10,-7.956,0,0.0883,8.6e-5,0.136,0.208,0.393,134.103,360907,A#,minor,A# minor
+Nine Inch Nails,Recoiled,Closer - Unrecalled,2,2014-02-24,0.424,0.577,3,-10.858,0,0.123,0.346,0.00758,0.107,0.368,180.175,464830,D#,minor,D# minor
+Nine Inch Nails,Recoiled,The Downward Spiral - A Gilded Sickness,3,2014-02-24,0.308,0.754,2,-9.741,1,0.233,0.186,0.758,0.354,0.244,100.286,481027,D,major,D major
+Nine Inch Nails,Recoiled,Eraser - Reduction,4,2014-02-24,0.16,0.654,1,-10.733,0,0.0627,0.928,0.394,0.472,0.0395,110.142,529553,C#,minor,C# minor
+Nine Inch Nails,Recoiled,Eraser - Baby Alarm Remix,5,2014-02-24,0.548,0.834,3,-9.566,0,0.0665,0.0315,0.718,0.264,0.149,130.091,532709,D#,minor,D# minor
+Nine Inch Nails,Hesitation Marks,The Eater Of Dreams,1,2013-01-01,0.555,0.0237,1,-26.377,1,0.049,0.0834,0.296,0.28,0.045,167.739,52431,C#,major,C# major
+Nine Inch Nails,Hesitation Marks,Copy Of A,2,2013-01-01,0.634,0.828,8,-6.161,1,0.0391,0.022,0.422,0.216,0.694,137.974,322622,G#,major,G# major
+Nine Inch Nails,Hesitation Marks,Came Back Haunted,3,2013-01-01,0.687,0.747,9,-4.324,0,0.0797,0.00342,0.0194,0.117,0.579,130.025,317269,A,minor,A minor
+Nine Inch Nails,Hesitation Marks,Find My Way,4,2013-01-01,0.624,0.448,1,-8.686,1,0.0357,0.202,0.759,0.106,0.408,150.008,315668,C#,major,C# major
+Nine Inch Nails,Hesitation Marks,All Time Low,5,2013-01-01,0.545,0.857,2,-5.262,1,0.0414,0.0163,0.0195,0.121,0.377,86.033,377810,D,major,D major
+Nine Inch Nails,Hesitation Marks,Disappointed,6,2013-01-01,0.74,0.472,2,-8.495,1,0.0386,0.0201,0.847,0.104,0.234,137.032,344115,D,major,D major
+Nine Inch Nails,Hesitation Marks,Everything,7,2013-01-01,0.515,0.911,1,-3.502,1,0.059,1.87e-5,0.646,0.131,0.912,155.028,199559,C#,major,C# major
+Nine Inch Nails,Hesitation Marks,Satellite,8,2013-01-01,0.75,0.613,1,-6.013,1,0.0988,1.66e-4,0.81,0.0888,0.441,113.409,302736,C#,major,C# major
+Nine Inch Nails,Hesitation Marks,Various Methods Of Escape,9,2013-01-01,0.526,0.555,5,-7.441,0,0.0504,0.00519,0.713,0.124,0.459,84.013,301405,F,minor,F minor
+Nine Inch Nails,Hesitation Marks,Running,10,2013-01-01,0.78,0.824,11,-7.365,0,0.0543,0.132,0.839,0.121,0.625,133.003,247600,B,minor,B minor
+Nine Inch Nails,Hesitation Marks,I Would For You,11,2013-01-01,0.548,0.839,3,-6.34,1,0.0527,0.0144,0.174,0.112,0.402,145.988,272691,D#,major,D# major
+Nine Inch Nails,Hesitation Marks,In Two,12,2013-01-01,0.475,0.852,1,-6.964,1,0.0416,0.00924,0.35,0.243,0.187,181.979,331536,C#,major,C# major
+Nine Inch Nails,Hesitation Marks,While I'm Still Here,13,2013-01-01,0.701,0.363,1,-16.037,1,0.0857,0.0942,0.843,0.0917,0.478,173.99,242743,C#,major,C# major
+Nine Inch Nails,Hesitation Marks,Black Noise,14,2013-01-01,0.489,0.631,1,-9.274,1,0.0827,0.51,0.952,0.149,0.32,174.036,89024,C#,major,C# major
+Nine Inch Nails,The Slip,"999,999",1,2008-07-22,0.194,0.132,8,-30.122,1,0.0565,0.857,0.827,0.195,0.0504,127.896,85159,G#,major,G# major
+Nine Inch Nails,The Slip,"1,000,000",2,2008-07-22,0.545,0.961,7,-4.163,1,0.0892,0.0696,0.00392,0.432,0.35,135.941,236197,G,major,G major
+Nine Inch Nails,The Slip,Letting You,3,2008-07-22,0.314,0.978,10,-4.028,0,0.0906,0.00794,0.492,0.403,0.0456,113.907,229510,A#,minor,A# minor
+Nine Inch Nails,The Slip,Discipline,4,2008-07-22,0.611,0.793,6,-6.646,1,0.0275,0.00122,0.285,0.251,0.824,122.01,259183,F#,major,F# major
+Nine Inch Nails,The Slip,Echoplex,5,2008-07-22,0.769,0.411,10,-8.228,0,0.0498,0.0138,0.708,0.099,0.565,123.996,285238,A#,minor,A# minor
+Nine Inch Nails,The Slip,Head Down,6,2008-07-22,0.63,0.885,10,-7.947,0,0.0457,0.0946,0.497,0.14,0.785,121.998,295459,A#,minor,A# minor
+Nine Inch Nails,The Slip,Lights In The Sky,7,2008-07-22,0.469,0.018,0,-24.246,0,0.0404,0.971,0.932,0.11,0.0419,109.828,209637,C,minor,C minor
+Nine Inch Nails,The Slip,Corona Radiata,8,2008-07-22,0.0833,0.0673,5,-26.559,1,0.0392,0.953,0.901,0.113,0.0404,67.282,453698,F,major,F major
+Nine Inch Nails,The Slip,The Four Of Us Are Dying,9,2008-07-22,0.546,0.601,10,-11.712,0,0.0506,0.519,0.873,0.211,0.246,83.01,277628,A#,minor,A# minor
+Nine Inch Nails,The Slip,Demon Seed,10,2008-07-22,0.591,0.844,9,-8.148,1,0.0417,0.102,0.574,0.116,0.787,132,299408,A,major,A major
+Nine Inch Nails,Ghosts I-IV,Ghosts I,1,2008-04-05,0.305,0.0162,5,-27.207,1,0.0402,0.927,0.866,0.111,0.0771,60.066,168200,F,major,F major
+Nine Inch Nails,Ghosts I-IV,Ghosts I,2,2008-04-05,0.14,0.0195,3,-20.658,1,0.0433,0.972,0.975,0.104,0.0869,140.035,196346,D#,major,D# major
+Nine Inch Nails,Ghosts I-IV,Ghosts I,3,2008-04-05,0.668,0.767,8,-11.516,1,0.0267,0.53,0.758,0.31,0.967,135.006,231120,G#,major,G# major
+Nine Inch Nails,Ghosts I-IV,Ghosts I,4,2008-04-05,0.611,0.639,7,-8.12,0,0.0302,0.0028,0.739,0.255,0.371,144.01,132893,G,minor,G minor
+Nine Inch Nails,Ghosts I-IV,Ghosts I,5,2008-04-05,0.614,0.267,0,-15.572,0,0.0395,0.915,0.919,0.11,0.349,81.035,171973,C,minor,C minor
+Nine Inch Nails,Ghosts I-IV,Ghosts I,6,2008-04-05,0.763,0.135,5,-21.035,1,0.241,0.996,0.968,0.0953,0.701,122.007,258693,F,major,F major
+Nine Inch Nails,Ghosts I-IV,Ghosts I,7,2008-04-05,0.678,0.834,1,-7.252,1,0.253,0.0696,0.888,0.101,0.473,195.939,120693,C#,major,C# major
+Nine Inch Nails,Ghosts I-IV,Ghosts I,8,2008-04-05,0.466,0.97,5,-4.195,1,0.056,0.148,0.966,0.562,0.341,111.984,175973,F,major,F major
+Nine Inch Nails,Ghosts I-IV,Ghosts I,9,2008-04-05,0.637,0.532,5,-16.422,1,0.142,0.934,0.942,0.111,0.185,160.167,167093,F,major,F major
+Nine Inch Nails,Ghosts I-IV,Ghosts Ii,10,2008-04-05,0.735,0.632,7,-6.941,1,0.034,0.133,0.899,0.0646,0.271,102.078,162280,G,major,G major
+Nine Inch Nails,Ghosts I-IV,Ghosts Ii,11,2008-04-05,0.542,0.166,0,-18.391,0,0.0334,0.711,0.874,0.216,0.0377,90.009,137333,C,minor,C minor
+Nine Inch Nails,Ghosts I-IV,Ghosts Ii,12,2008-04-05,0.299,0.459,0,-13.063,1,0.0474,0.011,0.851,0.147,0.0935,170.565,137213,C,major,C major
+Nine Inch Nails,Ghosts I-IV,Ghosts Ii,13,2008-04-05,0.493,0.0657,7,-27.675,1,0.0384,0.897,0.956,0.113,0.0636,118.02,193560,G,major,G major
+Nine Inch Nails,Ghosts I-IV,Ghosts Ii,14,2008-04-05,0.594,0.889,10,-7.341,0,0.0486,0.0502,0.938,0.11,0.782,165.977,185626,A#,minor,A# minor
+Nine Inch Nails,Ghosts I-IV,Ghosts Ii,15,2008-04-05,0.721,0.364,4,-10.93,1,0.0355,0.907,0.285,0.127,0.314,101.012,113240,E,major,E major
+Nine Inch Nails,Ghosts I-IV,Ghosts Ii,16,2008-04-05,0.667,0.655,4,-7.666,0,0.0573,0.021,0.806,0.0848,0.952,101.988,149960,E,minor,E minor
+Nine Inch Nails,Ghosts I-IV,Ghosts Ii,17,2008-04-05,0.505,0.761,1,-11.794,0,0.0283,0.801,0.953,0.103,0.666,162.003,133333,C#,minor,C# minor
+Nine Inch Nails,Ghosts I-IV,Ghosts Ii,18,2008-04-05,0.592,0.23,5,-14.103,1,0.0449,0.788,0.897,0.112,0.147,171.922,313973,F,major,F major
+Nine Inch Nails,Ghosts I-IV,Ghosts Iii,19,2008-04-05,0.484,0.954,1,-7.274,1,0.0656,0.0492,0.791,0.344,0.342,160.048,131800,C#,major,C# major
+Nine Inch Nails,Ghosts I-IV,Ghosts Iii,20,2008-04-05,0.435,0.61,9,-11.059,1,0.0723,0.401,0.865,0.117,0.43,140.007,219306,A,major,A major
+Nine Inch Nails,Ghosts I-IV,Ghosts Iii,21,2008-04-05,0.67,0.743,2,-11.246,1,0.0501,0.959,0.863,0.448,0.512,142.011,174360,D,major,D major
+Nine Inch Nails,Ghosts I-IV,Ghosts Iii,22,2008-04-05,0.78,0.272,6,-15.946,1,0.0506,0.692,0.712,0.126,0.0558,120.026,151120,F#,major,F# major
+Nine Inch Nails,Ghosts I-IV,Ghosts Iii,23,2008-04-05,0.365,0.67,9,-10.76,1,0.0742,0.873,0.954,0.453,0.269,145.756,163666,A,major,A major
+Nine Inch Nails,Ghosts I-IV,Ghosts Iii,24,2008-04-05,0.609,0.667,11,-9.146,0,0.0356,0.00256,0.833,0.147,0.141,121.964,159253,B,minor,B minor
+Nine Inch Nails,Ghosts I-IV,Ghosts Iii,25,2008-04-05,0.516,0.439,11,-17.179,0,0.1,0.694,0.888,0.251,0.151,107.857,118946,B,minor,B minor
+Nine Inch Nails,Ghosts I-IV,Ghosts Iii,26,2008-04-05,0.484,0.922,1,-7.646,1,0.0351,4.12e-4,0.9,0.125,0.746,158.03,145920,C#,major,C# major
+Nine Inch Nails,Ghosts I-IV,Ghosts Iii,27,2008-04-05,0.468,0.891,9,-6.812,1,0.0429,7.59e-5,0.859,0.242,0.518,137.956,171800,A,major,A major
+Nine Inch Nails,Ghosts I-IV,Ghosts Iv,28,2008-04-05,0.706,0.108,10,-19.644,1,0.0407,0.822,0.928,0.109,0.0558,119.997,322066,A#,major,A# major
+Nine Inch Nails,Ghosts I-IV,Ghosts Iv,29,2008-04-05,0.84,0.863,7,-10.486,1,0.0449,0.0334,0.126,0.34,0.753,99.003,174600,G,major,G major
+Nine Inch Nails,Ghosts I-IV,Ghosts Iv,30,2008-04-05,0.798,0.321,11,-12.933,1,0.0308,0.876,0.824,0.113,0.766,94.999,178680,B,major,B major
+Nine Inch Nails,Ghosts I-IV,Ghosts Iv,31,2008-04-05,0.613,0.851,7,-7.107,1,0.0774,0.0016,0.909,0.364,0.358,122.009,145546,G,major,G major
+Nine Inch Nails,Ghosts I-IV,Ghosts Iv,32,2008-04-05,0.98,0.372,7,-18.331,1,0.0544,0.987,0.937,0.111,0.524,121.995,265560,G,major,G major
+Nine Inch Nails,Ghosts I-IV,Ghosts Iv,33,2008-04-05,0.488,0.493,1,-11.945,1,0.0265,0.355,0.892,0.12,0.115,179.062,241693,C#,major,C# major
+Nine Inch Nails,Ghosts I-IV,Ghosts Iv,34,2008-04-05,0.249,0.113,2,-17.954,1,0.0317,0.945,0.926,0.201,0.0654,64.851,352560,D,major,D major
+Nine Inch Nails,Ghosts I-IV,Ghosts Iv,35,2008-04-05,0.816,0.778,1,-7.543,1,0.133,0.0587,0.805,0.0689,0.72,147.999,209933,C#,major,C# major
+Nine Inch Nails,Ghosts I-IV,Ghosts Iv,36,2008-04-05,0.697,0.0592,7,-22.397,0,0.0938,0.994,0.904,0.113,0.506,127.9,139053,G,minor,G minor
+Nine Inch Nails,Ghosts I-IV,01 Ghosts I,1,2008-03-02,0.199,0.018,5,-27.137,1,0.0428,0.92,0.892,0.11,0.0808,60.758,168834,F,major,F major
+Nine Inch Nails,Ghosts I-IV,02 Ghosts I,2,2008-03-02,0.16,0.0168,3,-20.143,1,0.0461,0.977,0.983,0.103,0.0731,109.927,196251,D#,major,D# major
+Nine Inch Nails,Ghosts I-IV,03 Ghosts I,3,2008-03-02,0.675,0.783,8,-11.476,1,0.0268,0.545,0.846,0.304,0.965,135.012,231100,G#,major,G# major
+Nine Inch Nails,Ghosts I-IV,04 Ghosts I,4,2008-03-02,0.62,0.668,7,-8.137,0,0.0306,0.00326,0.756,0.195,0.313,144.019,133008,G,minor,G minor
+Nine Inch Nails,Ghosts I-IV,05 Ghosts I,5,2008-03-02,0.632,0.269,0,-15.562,0,0.0403,0.921,0.931,0.111,0.332,81.017,171847,C,minor,C minor
+Nine Inch Nails,Ghosts I-IV,06 Ghosts I,6,2008-03-02,0.765,0.138,5,-21.061,1,0.255,0.996,0.968,0.091,0.713,121.983,258696,F,major,F major
+Nine Inch Nails,Ghosts I-IV,07 Ghosts I,7,2008-03-02,0.696,0.838,1,-7.233,1,0.247,0.0727,0.889,0.0932,0.486,196.015,120608,C#,major,C# major
+Nine Inch Nails,Ghosts I-IV,08 Ghosts I,8,2008-03-02,0.467,0.965,5,-4.233,1,0.0571,0.125,0.982,0.627,0.365,111.963,176116,F,major,F major
+Nine Inch Nails,Ghosts I-IV,09 Ghosts I,9,2008-03-02,0.636,0.541,5,-16.463,1,0.142,0.94,0.947,0.114,0.138,160.04,166967,F,major,F major
+Nine Inch Nails,Ghosts I-IV,10 Ghosts II,10,2008-03-02,0.733,0.65,5,-6.948,1,0.033,0.138,0.864,0.0636,0.305,102.032,162338,F,major,F major
+Nine Inch Nails,Ghosts I-IV,11 Ghosts II,11,2008-03-02,0.432,0.17,0,-18.301,0,0.0368,0.709,0.891,0.124,0.0388,179.988,137329,C,minor,C minor
+Nine Inch Nails,Ghosts I-IV,12 Ghosts II,12,2008-03-02,0.296,0.466,0,-12.998,1,0.0456,0.00701,0.825,0.165,0.0758,171.744,137200,C,major,C major
+Nine Inch Nails,Ghosts I-IV,13 Ghosts II,13,2008-03-02,0.496,0.0542,7,-27.766,1,0.037,0.9,0.935,0.111,0.0669,118.062,193613,G,major,G major
+Nine Inch Nails,Ghosts I-IV,14 Ghosts II,14,2008-03-02,0.592,0.882,10,-7.309,0,0.0507,0.0566,0.935,0.1,0.77,165.965,185593,A#,minor,A# minor
+Nine Inch Nails,Ghosts I-IV,15 Ghosts II,15,2008-03-02,0.725,0.355,4,-10.888,1,0.0334,0.888,0.142,0.126,0.325,100.999,113200,E,major,E major
+Nine Inch Nails,Ghosts I-IV,16 Ghosts II,16,2008-03-02,0.668,0.644,5,-7.623,1,0.0533,0.0198,0.875,0.0817,0.961,101.994,150023,F,major,F major
+Nine Inch Nails,Ghosts I-IV,17 Ghosts II,17,2008-03-02,0.506,0.725,4,-11.778,1,0.0321,0.807,0.958,0.102,0.559,161.999,133330,E,major,E major
+Nine Inch Nails,Ghosts I-IV,18 Ghosts II,18,2008-03-02,0.599,0.227,5,-14.074,1,0.0449,0.796,0.91,0.105,0.147,171.988,322644,F,major,F major
+Nine Inch Nails,Ghosts I-IV,19 Ghosts III,19,2008-03-02,0.492,0.951,1,-7.271,1,0.0689,0.0433,0.793,0.33,0.374,159.982,131762,C#,major,C# major
+Nine Inch Nails,Ghosts I-IV,20 Ghosts III,20,2008-03-02,0.233,0.619,9,-11.153,1,0.1,0.42,0.89,0.12,0.385,139.868,219401,A,major,A major
+Nine Inch Nails,Ghosts I-IV,21 Ghosts III,21,2008-03-02,0.675,0.747,2,-11.196,1,0.0458,0.961,0.862,0.458,0.502,142.016,174391,D,major,D major
+Nine Inch Nails,Ghosts I-IV,22 Ghosts III,22,2008-03-02,0.78,0.267,6,-15.916,1,0.0515,0.692,0.729,0.132,0.0441,120.023,151116,F#,major,F# major
+Nine Inch Nails,Ghosts I-IV,23 Ghosts III,23,2008-03-02,0.431,0.667,9,-10.71,1,0.0746,0.863,0.974,0.293,0.285,145.772,163562,A,major,A major
+Nine Inch Nails,Ghosts I-IV,24 Ghosts III,24,2008-03-02,0.626,0.655,11,-9.201,0,0.0359,0.00278,0.819,0.157,0.132,121.995,159342,B,minor,B minor
+Nine Inch Nails,Ghosts I-IV,25 Ghosts III,25,2008-03-02,0.38,0.459,11,-17.203,0,0.101,0.702,0.912,0.232,0.157,106.604,118906,B,minor,B minor
+Nine Inch Nails,Ghosts I-IV,26 Ghosts III,26,2008-03-02,0.491,0.919,1,-7.603,1,0.0354,5.35e-4,0.919,0.108,0.741,158.012,145861,C#,major,C# major
+Nine Inch Nails,Ghosts I-IV,27 Ghosts III,27,2008-03-02,0.473,0.887,6,-6.818,0,0.0413,6.81e-5,0.88,0.287,0.545,137.93,171900,F#,minor,F# minor
+Nine Inch Nails,Ghosts I-IV,28 Ghosts IV,28,2008-03-02,0.706,0.105,10,-19.6,1,0.0402,0.832,0.914,0.11,0.0555,120.017,322022,A#,major,A# major
+Nine Inch Nails,Ghosts I-IV,29 Ghosts IV,29,2008-03-02,0.836,0.871,7,-10.49,1,0.0439,0.0375,0.206,0.199,0.755,98.997,174550,G,major,G major
+Nine Inch Nails,Ghosts I-IV,30 Ghosts IV,30,2008-03-02,0.794,0.327,6,-12.893,1,0.032,0.879,0.79,0.103,0.818,95.009,178723,F#,major,F# major
+Nine Inch Nails,Ghosts I-IV,31 Ghosts IV,31,2008-03-02,0.612,0.855,7,-7.022,1,0.0767,0.00149,0.916,0.284,0.341,121.995,145555,G,major,G major
+Nine Inch Nails,Ghosts I-IV,32 Ghosts IV,32,2008-03-02,0.982,0.357,7,-18.335,1,0.0575,0.987,0.923,0.105,0.549,122.007,265578,G,major,G major
+Nine Inch Nails,Ghosts I-IV,33 Ghosts IV,33,2008-03-02,0.474,0.492,1,-11.967,1,0.0287,0.35,0.94,0.117,0.113,179.047,241719,C#,major,C# major
+Nine Inch Nails,Ghosts I-IV,34 Ghosts IV,34,2008-03-02,0.221,0.111,9,-17.945,1,0.0355,0.944,0.923,0.19,0.0657,64.027,352467,A,major,A major
+Nine Inch Nails,Ghosts I-IV,35 Ghosts IV,35,2008-03-02,0.809,0.775,1,-7.553,1,0.129,0.0589,0.833,0.0705,0.704,148.008,209936,C#,major,C# major
+Nine Inch Nails,Ghosts I-IV,36 Ghosts IV,36,2008-03-02,0.676,0.0788,7,-22.484,0,0.143,0.993,0.905,0.112,0.554,127.96,139043,G,minor,G minor
+Nine Inch Nails,Year Zero,HYPERPOWER!,1,2007-01-01,0.45,0.934,9,-10.306,1,0.0794,1.49e-5,0.948,0.121,0.0671,172.005,102253,A,major,A major
+Nine Inch Nails,Year Zero,The Beginning Of The End,2,2007-01-01,0.541,0.992,0,-3.728,1,0.0511,9.82e-5,0.756,0.126,0.333,138.015,167440,C,major,C major
+Nine Inch Nails,Year Zero,Survivalism,3,2007-01-01,0.618,0.675,9,-5.723,1,0.0679,8.92e-4,0.216,0.133,0.354,129.983,262493,A,major,A major
+Nine Inch Nails,Year Zero,The Good Soldier,4,2007-01-01,0.71,0.509,10,-9.396,1,0.039,0.0405,0.854,0.0927,0.63,87.411,203213,A#,major,A# major
+Nine Inch Nails,Year Zero,Vessel,5,2007-01-01,0.644,0.857,1,-6.122,1,0.191,0.00809,0.0162,0.0655,0.381,91.967,291426,C#,major,C# major
+Nine Inch Nails,Year Zero,"Me, I'm Not",6,2007-01-01,0.706,0.676,7,-6.188,1,0.0847,0.0209,0.263,0.128,0.884,139.981,291946,G,major,G major
+Nine Inch Nails,Year Zero,Capital G,7,2007-01-01,0.344,0.894,7,-3.772,1,0.149,0.029,2.12e-6,0.094,0.681,163.396,229666,G,major,G major
+Nine Inch Nails,Year Zero,My Violent Heart,8,2007-01-01,0.692,0.838,10,-7.744,0,0.188,0.0199,0.394,0.0494,0.448,106.011,253800,A#,minor,A# minor
+Nine Inch Nails,Year Zero,The Warning,9,2007-01-01,0.601,0.819,10,-5.655,0,0.119,0.0445,0.316,0.0261,0.837,179.975,218760,A#,minor,A# minor
+Nine Inch Nails,Year Zero,God Given,10,2007-01-01,0.759,0.843,10,-5.943,0,0.169,0.0151,0.0624,0.119,0.526,106.012,230253,A#,minor,A# minor
+Nine Inch Nails,Year Zero,Meet Your Master,11,2007-01-01,0.586,0.837,1,-4.643,1,0.0849,0.0014,0.358,0.0541,0.59,166.023,248680,C#,major,C# major
+Nine Inch Nails,Year Zero,The Greater Good,12,2007-01-01,0.709,0.481,2,-8.255,1,0.0556,0.0403,0.866,0.0811,0.115,83.002,290920,D,major,D major
+Nine Inch Nails,Year Zero,The Great Destroyer,13,2007-01-01,0.62,0.985,11,-5.171,0,0.21,0.00401,0.0675,0.177,0.387,150.001,197240,B,minor,B minor
+Nine Inch Nails,Year Zero,Another Version Of The Truth,14,2007-01-01,0.189,0.0619,7,-27.302,1,0.0382,0.98,0.94,0.108,0.0816,74.311,246306,G,major,G major
+Nine Inch Nails,Year Zero,In This Twilight,15,2007-01-01,0.481,0.752,2,-6.152,1,0.0632,0.0456,0.439,0.174,0.142,109.99,213813,D,major,D major
+Nine Inch Nails,Year Zero,Zero Sum,16,2007-01-01,0.77,0.605,5,-9.125,1,0.17,0.147,0.199,0.104,0.382,148.057,374866,F,major,F major
+Nine Inch Nails,Year Zero,HYPERPOWER!,1,2007-01-01,0.453,0.894,0,-9.737,1,0.0951,3.74e-5,0.968,0.205,0.0977,172.003,102253,C,major,C major
+Nine Inch Nails,Year Zero,The Beginning Of The End,2,2007-01-01,0.541,0.991,0,-3.766,1,0.0466,1.12e-4,0.774,0.126,0.354,137.999,167440,C,major,C major
+Nine Inch Nails,Year Zero,Survivalism,3,2007-01-01,0.622,0.664,11,-5.592,0,0.0805,8.25e-4,0.186,0.135,0.388,129.991,262493,B,minor,B minor
+Nine Inch Nails,Year Zero,The Good Soldier,4,2007-01-01,0.655,0.483,10,-9.393,1,0.0411,0.0481,0.723,0.0928,0.671,174.886,203213,A#,major,A# major
+Nine Inch Nails,Year Zero,Vessel,5,2007-01-01,0.644,0.864,7,-6.108,1,0.17,0.0094,0.00965,0.0707,0.398,91.976,291426,G,major,G major
+Nine Inch Nails,Year Zero,"Me, I'm Not",6,2007-01-01,0.718,0.681,7,-6.218,1,0.0891,0.0251,0.198,0.132,0.891,140.012,291946,G,major,G major
+Nine Inch Nails,Year Zero,Capital G,7,2007-01-01,0.352,0.895,7,-3.744,1,0.192,0.03,1.81e-6,0.105,0.636,163.443,229666,G,major,G major
+Nine Inch Nails,Year Zero,My Violent Heart,8,2007-01-01,0.681,0.836,10,-7.603,0,0.253,0.0216,0.218,0.0487,0.46,106.012,253800,A#,minor,A# minor
+Nine Inch Nails,Year Zero,The Warning,9,2007-01-01,0.681,0.827,10,-5.706,0,0.095,0.053,0.289,0.0289,0.803,90.008,218760,A#,minor,A# minor
+Nine Inch Nails,Year Zero,God Given,10,2007-01-01,0.777,0.838,10,-5.885,0,0.199,0.0181,0.0212,0.113,0.528,106.008,230253,A#,minor,A# minor
+Nine Inch Nails,Year Zero,Meet Your Master,11,2007-01-01,0.606,0.835,1,-4.59,1,0.1,0.00151,0.31,0.0647,0.581,166.033,248680,C#,major,C# major
+Nine Inch Nails,Year Zero,The Greater Good,12,2007-01-01,0.726,0.498,2,-8.413,1,0.0687,0.052,0.884,0.0805,0.0632,82.976,290920,D,major,D major
+Nine Inch Nails,Year Zero,The Great Destroyer,13,2007-01-01,0.611,0.985,11,-5.172,0,0.209,0.00403,0.0662,0.183,0.332,150.041,197240,B,minor,B minor
+Nine Inch Nails,Year Zero,Another Version Of The Truth,14,2007-01-01,0.188,0.0829,2,-27.29,1,0.0408,0.981,0.963,0.109,0.0792,73.301,246306,D,major,D major
+Nine Inch Nails,Year Zero,In This Twilight,15,2007-01-01,0.705,0.721,0,-6.244,0,0.0477,0.0363,0.549,0.274,0.187,110.05,213813,C,minor,C minor
+Nine Inch Nails,Year Zero,Zero Sum,16,2007-01-01,0.765,0.59,5,-9.189,1,0.166,0.176,0.2,0.104,0.431,147.927,374866,F,major,F major
+Nine Inch Nails,Y34RZ3r0r3mix3d,Gunshots by Computer - Saul Williams,1,2007-01-01,0.48,0.96,11,-5.638,0,0.114,0.0816,0,0.734,0.559,171.961,103253,B,minor,B minor
+Nine Inch Nails,Y34RZ3r0r3mix3d,The Great Destroyer - modwheelmood,2,2007-01-01,0.485,0.781,4,-5.121,0,0.0352,1.98e-4,0.488,0.125,0.262,150.089,259426,E,minor,E minor
+Nine Inch Nails,Y34RZ3r0r3mix3d,My Violent Heart - pirate robot midget,3,2007-01-01,0.557,0.858,6,-5.312,1,0.171,4.34e-4,0.064,0.0535,0.624,108.128,154000,F#,major,F# major
+Nine Inch Nails,Y34RZ3r0r3mix3d,The Beginning of the End - ladytron,4,2007-01-01,0.578,0.78,0,-2.848,1,0.0667,0.156,0.113,0.429,0.392,138.041,260533,C,major,C major
+Nine Inch Nails,Y34RZ3r0r3mix3d,Survivalism - Saul Williams,5,2007-01-01,0.59,0.716,9,-7.134,0,0.0405,5.66e-4,0.0439,0.07,0.528,129.915,257959,A,minor,A minor
+Nine Inch Nails,Y34RZ3r0r3mix3d,Capital G - Paul Epworth Phones 666 Revolutions Mix,6,2007-01-01,0.802,0.766,11,-4.527,0,0.2,8.3e-4,8.57e-4,0.0585,0.589,124.952,444826,B,minor,B minor
+Nine Inch Nails,Y34RZ3r0r3mix3d,Vessel - bill laswell,7,2007-01-01,0.666,0.92,7,-6.98,1,0.263,6.92e-4,0.348,0.412,0.235,91.994,370346,G,major,G major
+Nine Inch Nails,Y34RZ3r0r3mix3d,The Warning - Stefan Goodchild Feat. Doudou N'Diaye Rose,8,2007-01-01,0.707,0.695,10,-9.107,0,0.0628,0.0352,0.767,0.18,0.379,103.003,223826,A#,minor,A# minor
+Nine Inch Nails,Y34RZ3r0r3mix3d,Meet Your Master - the faint,9,2007-01-01,0.801,0.669,1,-4.915,1,0.0619,0.0113,0.00909,0.0687,0.69,109.97,214520,C#,major,C# major
+Nine Inch Nails,Y34RZ3r0r3mix3d,God Given - Stephen Morris And Gillian Gilbert,10,2007-01-01,0.673,0.776,7,-6.254,1,0.0506,0.123,0.434,0.116,0.293,105.996,267773,G,major,G major
+Nine Inch Nails,Y34RZ3r0r3mix3d,"Me, I'm Not - olof dreijer",11,2007-01-01,0.863,0.398,7,-11.449,1,0.239,0.00155,0.892,0.0728,0.245,128.004,840786,G,major,G major
+Nine Inch Nails,Y34RZ3r0r3mix3d,Another Version of the Truth - kronos and enrique gonzalez muller,12,2007-01-01,0.443,0.712,0,-9.192,1,0.0804,0.677,0.856,0.373,0.229,88.955,265053,C,major,C major
+Nine Inch Nails,Y34RZ3r0r3mix3d,In This Twilight - fennesz,13,2007-01-01,0.15,0.623,2,-8.986,1,0.0428,0.0207,0.159,0.108,0.117,104.834,276093,D,major,D major
+Nine Inch Nails,Y34RZ3r0r3mix3d,Zero Sum - Stephen Morris And Gillian Gilbert,14,2007-01-01,0.647,0.672,2,-9.61,1,0.0382,0.0557,0.56,0.0853,0.663,151.957,338826,D,major,D major
+Nine Inch Nails,With Teeth (Bonus Tracks),All The Love In The World,1,2005-05-02,0.728,0.637,0,-11.059,1,0.0461,0.0688,0.314,0.106,0.623,119.988,315293,C,major,C major
+Nine Inch Nails,With Teeth (Bonus Tracks),You Know What You Are?,2,2005-05-02,0.5,0.975,10,-5.754,1,0.0954,0.0156,0.0277,0.299,0.266,160.027,221933,A#,major,A# major
+Nine Inch Nails,With Teeth (Bonus Tracks),The Collector,3,2005-05-02,0.663,0.964,0,-3.987,1,0.0707,0.0017,0.0637,0.137,0.4,138.009,187493,C,major,C major
+Nine Inch Nails,With Teeth (Bonus Tracks),The Hand That Feeds,4,2005-05-02,0.587,0.99,0,-4.496,1,0.0783,0.0172,6.68e-4,0.104,0.486,127.992,211680,C,major,C major
+Nine Inch Nails,With Teeth (Bonus Tracks),Love Is Not Enough,5,2005-05-02,0.672,0.674,7,-6.096,1,0.0322,0.015,0.465,0.0754,0.586,123.173,221333,G,major,G major
+Nine Inch Nails,With Teeth (Bonus Tracks),Every Day Is Exactly The Same,6,2005-05-02,0.607,0.941,0,-6.163,1,0.0486,0.0217,0.071,0.119,0.414,144.04,294893,C,major,C major
+Nine Inch Nails,With Teeth (Bonus Tracks),With Teeth,7,2005-05-02,0.602,0.66,0,-8.935,1,0.032,0.192,0.391,0.206,0.351,98.084,337664,C,major,C major
+Nine Inch Nails,With Teeth (Bonus Tracks),Only,8,2005-05-02,0.7,0.807,9,-5.711,0,0.029,5.76e-4,0.00488,0.0996,0.963,112.15,263093,A,minor,A minor
+Nine Inch Nails,With Teeth (Bonus Tracks),Getting Smaller,9,2005-05-02,0.505,0.942,8,-5.843,0,0.0397,7.85e-5,0.00284,0.126,0.624,168.237,215506,G#,minor,G# minor
+Nine Inch Nails,With Teeth (Bonus Tracks),Sunspots,10,2005-05-02,0.736,0.444,11,-6.154,1,0.0303,0.00204,0.923,0.113,0.707,103.599,243160,B,major,B major
+Nine Inch Nails,With Teeth (Bonus Tracks),The Line Begins To Blur,11,2005-05-02,0.344,0.944,7,-5.178,1,0.125,0.0076,0.8,0.863,0.342,174.206,224440,G,major,G major
+Nine Inch Nails,With Teeth (Bonus Tracks),Beside You In Time,12,2005-05-02,0.476,0.543,2,-9.549,1,0.0481,0.355,0.89,0.192,0.13,119.919,324626,D,major,D major
+Nine Inch Nails,With Teeth (Bonus Tracks),Right Where It Belongs,13,2005-05-02,0.458,0.362,5,-10.043,1,0.0305,0.979,0.494,0.118,0.223,139.879,307560,F,major,F major
+Nine Inch Nails,With Teeth (Bonus Tracks),Home - Bonus Track,14,2005-05-02,0.669,0.892,7,-5.966,1,0.0285,0.282,0.206,0.113,0.688,105.083,194013,G,major,G major
+Nine Inch Nails,With Teeth (Bonus Tracks),Right Where It Belongs - Version 2,15,2005-05-02,0.518,0.0683,5,-19.556,1,0.0362,0.909,3.98e-4,0.108,0.104,140.154,303426,F,major,F major
+Nine Inch Nails,With Teeth,All The Love In The World,1,2005-01-01,0.743,0.642,0,-10.785,1,0.0478,0.0953,0.242,0.106,0.666,119.981,315293,C,major,C major
+Nine Inch Nails,With Teeth,You Know What You Are?,2,2005-01-01,0.523,0.972,10,-5.602,1,0.109,0.0139,0.036,0.33,0.312,160.01,221933,A#,major,A# major
+Nine Inch Nails,With Teeth,The Collector,3,2005-01-01,0.672,0.966,0,-3.85,1,0.0881,0.00198,0.0269,0.148,0.374,137.999,187493,C,major,C major
+Nine Inch Nails,With Teeth,The Hand That Feeds,4,2005-01-01,0.59,0.987,9,-4.385,0,0.0859,0.0188,3.26e-4,0.0865,0.43,128.007,211680,A,minor,A minor
+Nine Inch Nails,With Teeth,Love Is Not Enough,5,2005-01-01,0.668,0.67,7,-5.95,1,0.0326,0.0178,0.422,0.0903,0.566,123.175,221333,G,major,G major
+Nine Inch Nails,With Teeth,Every Day Is Exactly The Same,6,2005-01-01,0.618,0.928,0,-6.025,1,0.0472,0.0219,0.11,0.12,0.415,144.025,294846,C,major,C major
+Nine Inch Nails,With Teeth,With Teeth,7,2005-01-01,0.605,0.657,0,-8.98,1,0.034,0.19,0.302,0.229,0.312,98.096,337664,C,major,C major
+Nine Inch Nails,With Teeth,Only,8,2005-01-01,0.718,0.797,9,-5.556,0,0.0296,7.07e-4,0.00438,0.11,0.962,112.131,263093,A,minor,A minor
+Nine Inch Nails,With Teeth,Getting Smaller,9,2005-01-01,0.516,0.926,11,-5.74,1,0.0403,8.73e-5,0.00285,0.14,0.671,168.205,215506,B,major,B major
+Nine Inch Nails,With Teeth,Sunspots,10,2005-01-01,0.75,0.43,8,-6,0,0.0278,0.00164,0.937,0.113,0.663,103.594,243160,G#,minor,G# minor
+Nine Inch Nails,With Teeth,The Line Begins To Blur,11,2005-01-01,0.346,0.94,7,-5.057,1,0.117,0.00718,0.857,0.82,0.302,174.146,224397,G,major,G major
+Nine Inch Nails,With Teeth,Beside You In Time,12,2005-01-01,0.484,0.562,2,-9.398,1,0.0458,0.355,0.884,0.195,0.127,119.919,324626,D,major,D major
+Nine Inch Nails,With Teeth,Right Where It Belongs,13,2005-01-01,0.453,0.341,5,-9.944,1,0.0293,0.979,0.586,0.129,0.205,139.911,307525,F,major,F major
+Nine Inch Nails,With Teeth,Home,14,2005-01-01,0.677,0.851,7,-5.939,1,0.0261,0.281,0.202,0.101,0.751,105.07,191306,G,major,G major
+Nine Inch Nails,With Teeth,All The Love In The World,1,2005-01-01,0.728,0.632,7,-10.782,0,0.045,0.0966,0.204,0.107,0.671,119.984,315293,G,minor,G minor
+Nine Inch Nails,With Teeth,You Know What You Are?,2,2005-01-01,0.514,0.974,10,-5.686,1,0.104,0.0177,0.0269,0.373,0.359,160.046,221933,A#,major,A# major
+Nine Inch Nails,With Teeth,The Collector,3,2005-01-01,0.655,0.967,0,-3.907,1,0.0648,0.00138,0.109,0.148,0.391,138.004,187493,C,major,C major
+Nine Inch Nails,With Teeth,The Hand That Feeds,4,2005-01-01,0.595,0.985,9,-4.337,0,0.0885,0.0187,2.97e-4,0.0666,0.462,128.006,211680,A,minor,A minor
+Nine Inch Nails,With Teeth,Love Is Not Enough,5,2005-01-01,0.668,0.665,7,-6.004,1,0.0324,0.0187,0.37,0.0901,0.6,123.181,221333,G,major,G major
+Nine Inch Nails,With Teeth,Every Day Is Exactly The Same,6,2005-01-01,0.626,0.92,0,-6.153,1,0.0496,0.0262,0.075,0.134,0.421,144.032,294893,C,major,C major
+Nine Inch Nails,With Teeth,With Teeth,7,2005-01-01,0.606,0.652,0,-8.993,1,0.0332,0.216,0.373,0.23,0.369,98.066,337706,C,major,C major
+Nine Inch Nails,With Teeth,Only,8,2005-01-01,0.717,0.797,9,-5.678,0,0.0294,7.43e-4,0.00283,0.106,0.961,112.129,263093,A,minor,A minor
+Nine Inch Nails,With Teeth,Getting Smaller,9,2005-01-01,0.53,0.925,8,-5.756,0,0.0401,8.63e-5,0.0037200000000000002,0.111,0.644,168.222,215506,G#,minor,G# minor
+Nine Inch Nails,With Teeth,Sunspots,10,2005-01-01,0.758,0.427,11,-6.127,1,0.0285,0.00208,0.882,0.114,0.695,103.594,243160,B,major,B major
+Nine Inch Nails,With Teeth,The Line Begins To Blur,11,2005-01-01,0.346,0.928,7,-5.215,1,0.113,0.00521,0.795,0.827,0.324,174.17,224440,G,major,G major
+Nine Inch Nails,With Teeth,Beside You In Time,12,2005-01-01,0.484,0.576,2,-9.478,1,0.0474,0.369,0.865,0.195,0.164,119.939,324626,D,major,D major
+Nine Inch Nails,With Teeth,Right Where It Belongs,13,2005-01-01,0.444,0.348,5,-10.093,1,0.0297,0.978,0.738,0.127,0.189,139.781,304853,F,major,F major
+Nine Inch Nails,Still,Something I Can Never Have,1,2002-01-22,0.481,0.0944,5,-16.47,1,0.0309,0.986,0.00613,0.152,0.114,99.724,399360,F,major,F major
+Nine Inch Nails,Still,Adrift & At Peace,2,2002-01-22,0.745,0.0531,9,-22.428,0,0.0504,0.986,0.918,0.113,0.108,89.089,172613,A,minor,A minor
+Nine Inch Nails,Still,The Fragile,3,2002-01-22,0.326,0.171,0,-15.342,1,0.0341,0.948,6.6e-4,0.142,0.0504,138.44,312213,C,major,C major
+Nine Inch Nails,Still,The Becoming,4,2002-01-22,0.701,0.801,5,-7.615,0,0.0401,0.595,0.0127,0.184,0.724,150.008,270253,F,minor,F minor
+Nine Inch Nails,Still,"Gone, Still",5,2002-01-22,0.753,0.0245,7,-28.562,1,0.0502,0.841,0.832,0.111,0.0346,92.114,156026,G,major,G major
+Nine Inch Nails,Still,The Day The World Went Away,6,2002-01-22,0.619,0.0682,5,-17.12,1,0.0631,0.918,0.125,0.106,0.0433,124.108,317440,F,major,F major
+Nine Inch Nails,Still,And All That Could Have Been,7,2002-01-22,0.585,0.421,11,-11.796,1,0.0259,0.651,0.954,0.108,0.208,140.041,374893,B,major,B major
+Nine Inch Nails,Still,The Persistence Of Loss,8,2002-01-22,0.491,0.0958,9,-24.527,1,0.0371,0.879,0.883,0.115,0.097,111.065,243973,A,major,A major
+Nine Inch Nails,Still,Leaving Hope,9,2002-01-22,0.188,0.187,0,-20.475,0,0.0336,0.965,0.95,0.124,0.0474,131.705,357493,C,minor,C minor
+Nine Inch Nails,And All That Could Have Been/Still,Terrible Lie,1,2002-01-01,0.54,0.985,11,-2.342,0,0.0739,0.0697,0.0798,0.888,0.29,87.514,299093,B,minor,B minor
+Nine Inch Nails,And All That Could Have Been/Still,Sin,2,2002-01-01,0.582,0.96,6,-3.854,1,0.0426,3.56e-4,0.00904,0.672,0.546,129.602,255173,F#,major,F# major
+Nine Inch Nails,And All That Could Have Been/Still,March Of The Pigs,3,2002-01-01,0.282,0.974,2,-4.517,1,0.0822,0.00217,0.474,0.976,0.133,134.913,253654,D,major,D major
+Nine Inch Nails,And All That Could Have Been/Still,Piggy,4,2002-01-01,0.646,0.863,2,-4.005,1,0.0321,0.165,0.0229,0.717,0.345,131.939,291426,D,major,D major
+Nine Inch Nails,And All That Could Have Been/Still,The Frail,5,2002-01-01,0.341,0.044,7,-16.047,0,0.0364,0.876,0.976,0.322,0.138,98.572,101706,G,minor,G minor
+Nine Inch Nails,And All That Could Have Been/Still,The Wretched,6,2002-01-01,0.559,0.864,0,-5.342,1,0.0579,0.00152,0.0415,0.692,0.352,143.973,324011,C,major,C major
+Nine Inch Nails,And All That Could Have Been/Still,Gave Up,7,2002-01-01,0.524,0.994,1,-3.581,1,0.193,0.004,0.0702,0.897,0.0635,143.9,254666,C#,major,C# major
+Nine Inch Nails,And All That Could Have Been/Still,The Great Below,8,2002-01-01,0.454,0.55,1,-10.457,1,0.0338,0.115,0.61,0.975,0.0677,91.995,307960,C#,major,C# major
+Nine Inch Nails,And All That Could Have Been/Still,The Mark Has Been Made,9,2002-01-01,0.679,0.61,7,-8.039,1,0.0378,0.0353,0.728,0.622,0.119,119.947,225573,G,major,G major
+Nine Inch Nails,And All That Could Have Been/Still,Wish,10,2002-01-01,0.455,0.989,7,-4.033,1,0.123,3.72e-4,0.63,0.665,0.14,135.068,220200,G,major,G major
+Nine Inch Nails,And All That Could Have Been/Still,Suck,11,2002-01-01,0.564,0.877,2,-4.623,1,0.0689,0.00262,0.2,0.964,0.305,90.815,253733,D,major,D major
+Nine Inch Nails,And All That Could Have Been/Still,Closer,12,2002-01-01,0.612,0.925,5,-6.492,0,0.063,0.00812,0.13,0.944,0.449,93.892,338426,F,minor,F minor
+Nine Inch Nails,And All That Could Have Been/Still,Head Like A Hole,13,2002-01-01,0.593,0.989,11,-4.011,0,0.152,0.0114,9.88e-4,0.963,0.257,114.38,294133,B,minor,B minor
+Nine Inch Nails,And All That Could Have Been/Still,The Day The World Went Away,14,2002-01-01,0.304,0.537,7,-9.667,1,0.0378,0.1,0.662,0.975,0.0518,118.973,389333,G,major,G major
+Nine Inch Nails,And All That Could Have Been/Still,"Starfuckers, Inc.",15,2002-01-01,0.353,0.967,0,-5.435,1,0.151,2.85e-4,0.145,0.979,0.117,157.061,330600,C,major,C major
+Nine Inch Nails,And All That Could Have Been/Still,Hurt,16,2002-01-01,0.43,0.318,11,-11.972,0,0.0289,0.644,0.0172,0.419,0.0778,80,299653,B,minor,B minor
+Nine Inch Nails,And All That Could Have Been/Still,Something I Can Never Have,1,2002-01-01,0.481,0.0944,5,-16.47,1,0.0309,0.986,0.00613,0.152,0.114,99.724,399360,F,major,F major
+Nine Inch Nails,And All That Could Have Been/Still,Adrift & At Peace,2,2002-01-01,0.745,0.0531,9,-22.428,0,0.0504,0.986,0.918,0.113,0.108,89.089,172613,A,minor,A minor
+Nine Inch Nails,And All That Could Have Been/Still,The Fragile,3,2002-01-01,0.326,0.171,0,-15.342,1,0.0341,0.948,6.6e-4,0.142,0.0504,138.44,312213,C,major,C major
+Nine Inch Nails,And All That Could Have Been/Still,The Becoming,4,2002-01-01,0.701,0.801,5,-7.615,0,0.0401,0.595,0.0127,0.184,0.724,150.008,270253,F,minor,F minor
+Nine Inch Nails,And All That Could Have Been/Still,"Gone, Still",5,2002-01-01,0.753,0.0245,7,-28.562,1,0.0502,0.841,0.832,0.111,0.0346,92.114,156026,G,major,G major
+Nine Inch Nails,And All That Could Have Been/Still,The Day The World Went Away,6,2002-01-01,0.619,0.0682,5,-17.12,1,0.0631,0.918,0.125,0.106,0.0433,124.108,317440,F,major,F major
+Nine Inch Nails,And All That Could Have Been/Still,And All That Could Have Been,7,2002-01-01,0.585,0.421,11,-11.796,1,0.0259,0.651,0.954,0.108,0.208,140.041,374893,B,major,B major
+Nine Inch Nails,And All That Could Have Been/Still,The Persistence Of Loss,8,2002-01-01,0.491,0.0958,9,-24.527,1,0.0371,0.879,0.883,0.115,0.097,111.065,243973,A,major,A major
+Nine Inch Nails,And All That Could Have Been/Still,Leaving Hope,9,2002-01-01,0.188,0.187,0,-20.475,0,0.0336,0.965,0.95,0.124,0.0474,131.705,357493,C,minor,C minor
+Nine Inch Nails,Live: And All That Could Have Been,Terrible Lie,1,2002-01-01,0.522,0.982,11,-2.359,0,0.0803,0.0716,0.106,0.867,0.29,87.543,299093,B,minor,B minor
+Nine Inch Nails,Live: And All That Could Have Been,Sin,2,2002-01-01,0.582,0.957,6,-3.861,1,0.0424,2.79e-4,0.00525,0.679,0.533,129.569,255173,F#,major,F# major
+Nine Inch Nails,Live: And All That Could Have Been,March Of The Pigs,3,2002-01-01,0.288,0.975,2,-4.476,1,0.0831,0.00258,0.482,0.961,0.144,134.967,253666,D,major,D major
+Nine Inch Nails,Live: And All That Could Have Been,Piggy,4,2002-01-01,0.643,0.87,2,-4.008,1,0.033,0.144,0.0304,0.748,0.344,131.941,291426,D,major,D major
+Nine Inch Nails,Live: And All That Could Have Been,The Frail,5,2002-01-01,0.294,0.0513,7,-16.196,0,0.0363,0.871,0.942,0.32,0.0989,75.003,101706,G,minor,G minor
+Nine Inch Nails,Live: And All That Could Have Been,The Wretched,6,2002-01-01,0.558,0.871,0,-5.385,1,0.0561,0.00118,0.0484,0.696,0.336,143.983,324040,C,major,C major
+Nine Inch Nails,Live: And All That Could Have Been,Gave Up,7,2002-01-01,0.531,0.994,1,-3.592,1,0.179,0.00445,0.0445,0.844,0.067,143.883,254666,C#,major,C# major
+Nine Inch Nails,Live: And All That Could Have Been,The Great Below,8,2002-01-01,0.453,0.553,1,-10.495,1,0.0332,0.0929,0.399,0.976,0.0799,91.986,307960,C#,major,C# major
+Nine Inch Nails,Live: And All That Could Have Been,The Mark Has Been Made,9,2002-01-01,0.679,0.598,7,-7.89,1,0.0361,0.0385,0.766,0.59,0.149,119.957,225573,G,major,G major
+Nine Inch Nails,Live: And All That Could Have Been,Wish,10,2002-01-01,0.449,0.992,7,-4.027,1,0.121,2.87e-4,0.446,0.639,0.134,135.037,220200,G,major,G major
+Nine Inch Nails,Live: And All That Could Have Been,Suck,11,2002-01-01,0.564,0.885,2,-4.692,1,0.0499,0.00325,0.268,0.959,0.29,90.792,253733,D,major,D major
+Nine Inch Nails,Live: And All That Could Have Been,Closer,12,2002-01-01,0.61,0.928,10,-6.52,0,0.0596,0.00778,0.188,0.94,0.456,93.927,338426,A#,minor,A# minor
+Nine Inch Nails,Live: And All That Could Have Been,Head Like A Hole,13,2002-01-01,0.587,0.989,11,-3.983,0,0.162,0.0104,0.00103,0.964,0.221,114.369,294133,B,minor,B minor
+Nine Inch Nails,Live: And All That Could Have Been,The Day The World Went Away,14,2002-01-01,0.353,0.536,7,-9.734,1,0.0378,0.0929,0.705,0.977,0.0515,119.208,389333,G,major,G major
+Nine Inch Nails,Live: And All That Could Have Been,"Starfuckers, Inc.",15,2002-01-01,0.351,0.972,9,-5.44,1,0.136,3.06e-4,0.0948,0.976,0.0663,156.185,330600,A,major,A major
+Nine Inch Nails,Live: And All That Could Have Been,Hurt,16,2002-01-01,0.425,0.31,9,-12.056,1,0.0295,0.657,0.0133,0.411,0.0668,80.062,299653,A,major,A major
+Nine Inch Nails,Things Falling Apart,Slipping Away - Remix Version,1,2000-01-01,0.698,0.888,7,-6.154,1,0.095,0.00676,0.409,0.729,0.232,92.988,370500,G,major,G major
+Nine Inch Nails,Things Falling Apart,The Great Collapse - Remix Version,2,2000-01-01,0.784,0.324,4,-10.521,0,0.0723,0.0247,0.916,0.322,0.104,94,281500,E,minor,E minor
+Nine Inch Nails,Things Falling Apart,The Wretched - Remix Version,3,2000-01-01,0.619,0.441,0,-10.835,1,0.0354,0.372,0.0714,0.148,0.421,140.01,352840,C,major,C major
+Nine Inch Nails,Things Falling Apart,"Starfuckers, Inc. - Remix Version (as)",4,2000-01-01,0.378,0.991,11,-7.248,0,0.26,0.0166,0.666,0.611,0.0365,144.827,311600,B,minor,B minor
+Nine Inch Nails,Things Falling Apart,The Frail - Remix Version,5,2000-01-01,0.163,0.374,7,-17.14,0,0.0479,0.591,0.409,0.486,0.311,87.258,167000,G,minor,G minor
+Nine Inch Nails,Things Falling Apart,"Starfuckers, Inc. - Remix Version (do)",6,2000-01-01,0.607,0.993,11,-7.197,0,0.0487,0.0175,0.51,0.839,0.563,145.98,366600,B,minor,B minor
+Nine Inch Nails,Things Falling Apart,Where Is Everybody? - Remix Version,7,2000-01-01,0.634,0.848,0,-8.053,1,0.0775,0.00469,0.0217,0.118,0.54,144.019,307706,C,major,C major
+Nine Inch Nails,Things Falling Apart,Metal - Remix Version,8,2000-01-01,0.653,0.363,5,-13.414,1,0.0383,0.153,0.821,0.105,0.0375,125.978,425250,F,major,F major
+Nine Inch Nails,Things Falling Apart,10 Miles High - Remix Version,9,2000-01-01,0.594,0.304,2,-12.64,1,0.0959,0.22,0.776,0.356,0.104,175.287,310250,D,major,D major
+Nine Inch Nails,Things Falling Apart,"Starfuckers, Inc. - Remix Version (cc)",10,2000-01-01,0.543,0.817,11,-9.272,0,0.193,0.541,0.704,0.0793,0.285,145.961,308500,B,minor,B minor
+Nine Inch Nails,The Fragile,Somewhat Damaged,1,1999-01-01,0.677,0.755,0,-7.669,0,0.0426,9.91e-4,0.229,0.196,0.403,110.025,271000,C,minor,C minor
+Nine Inch Nails,The Fragile,The Day The World Went Away,2,1999-01-01,0.198,0.236,11,-7.586,1,0.0397,0.0226,0.77,0.0943,0.0722,129.211,272500,B,major,B major
+Nine Inch Nails,The Fragile,The Frail,3,1999-01-01,0.189,0.00423,0,-34.898,1,0.0436,0.946,0.898,0.244,0.203,72.819,114040,C,major,C major
+Nine Inch Nails,The Fragile,The Wretched,4,1999-01-01,0.626,0.741,0,-7.316,1,0.0396,0.00849,0.203,0.102,0.53,140.007,325250,C,major,C major
+Nine Inch Nails,The Fragile,We're In This Together,5,1999-01-01,0.555,0.672,0,-7.337,1,0.0339,3.17e-4,0.355,0.0984,0.171,100.091,436000,C,major,C major
+Nine Inch Nails,The Fragile,The Fragile,6,1999-01-01,0.559,0.373,7,-7.733,0,0.0253,0.00472,0.663,0.201,0.222,143.034,275466,G,minor,G minor
+Nine Inch Nails,The Fragile,Just Like You Imagined,7,1999-01-01,0.478,0.76,10,-8.029,1,0.0397,0.00509,0.921,0.0868,0.336,150.074,229866,A#,major,A# major
+Nine Inch Nails,The Fragile,Even Deeper,8,1999-01-01,0.654,0.576,9,-8.916,1,0.0314,0.00221,0.686,0.402,0.17,125.992,347933,A,major,A major
+Nine Inch Nails,The Fragile,Pilgrimage,9,1999-01-01,0.462,0.749,1,-5.816,1,0.0368,0.00963,0.666,0.378,0.231,80.023,211933,C#,major,C# major
+Nine Inch Nails,The Fragile,"No, You Don't",10,1999-01-01,0.548,0.94,6,-6.214,0,0.0777,6.83e-5,0.76,0.0923,0.133,126.035,215933,F#,minor,F# minor
+Nine Inch Nails,The Fragile,La Mer,11,1999-01-01,0.588,0.462,0,-11.134,0,0.0249,0.232,0.902,0.127,0.241,92.997,277866,C,minor,C minor
+Nine Inch Nails,The Fragile,The Great Below,12,1999-01-01,0.3,0.269,2,-16.825,1,0.0349,0.461,0.66,0.287,0.0495,122.545,317173,D,major,D major
+Nine Inch Nails,The Fragile,The Way Out Is Through,1,1999-01-01,0.49,0.284,0,-12.111,1,0.0393,0.61,0.897,0.115,0.199,119.936,256250,C,major,C major
+Nine Inch Nails,The Fragile,Into The Void,2,1999-01-01,0.71,0.816,8,-5.903,1,0.0458,0.122,0.0301,0.0666,0.393,93.038,288250,G#,major,G# major
+Nine Inch Nails,The Fragile,Where Is Everybody?,3,1999-01-01,0.632,0.766,10,-5.835,1,0.0503,0.00202,0.00147,0.0988,0.788,144.011,339750,A#,major,A# major
+Nine Inch Nails,The Fragile,The Mark Has Been Made,4,1999-01-01,0.668,0.405,2,-11.069,1,0.0344,0.0407,0.882,0.105,0.078,120.066,314000,D,major,D major
+Nine Inch Nails,The Fragile,Please,5,1999-01-01,0.726,0.754,4,-3.985,1,0.0302,4.59e-4,0.754,0.331,0.562,119.984,210706,E,major,E major
+Nine Inch Nails,The Fragile,"Starfuckers, Inc.",6,1999-01-01,0.494,0.937,11,-6.037,0,0.0632,3.04e-4,0.537,0.723,0.366,145.994,299250,B,minor,B minor
+Nine Inch Nails,The Fragile,Complication,7,1999-01-01,0.469,0.929,9,-6.579,0,0.0545,0.00369,0.823,0.0647,0.305,135.004,150773,A,minor,A minor
+Nine Inch Nails,The Fragile,"I'm Looking Forward To Joining You, Finally",8,1999-01-01,0.782,0.598,0,-10.654,1,0.114,0.0613,0.744,0.26,0.154,166.064,253360,C,major,C major
+Nine Inch Nails,The Fragile,The Big Come Down,9,1999-01-01,0.714,0.808,2,-5.151,1,0.261,0.0368,0.0037200000000000002,0.259,0.604,161.988,252866,D,major,D major
+Nine Inch Nails,The Fragile,Underneath It All,10,1999-01-01,0.61,0.809,7,-8.838,0,0.125,0.00482,0.00402,0.403,0.0532,110.042,166133,G,minor,G minor
+Nine Inch Nails,The Fragile,Ripe (With Decay),11,1999-01-01,0.572,0.181,8,-14.85,1,0.0261,0.141,0.875,0.189,0.0373,80.075,394333,G#,major,G# major
+Nine Inch Nails,Further Down The Spiral,Piggy (Nothing Can Stop Me Now),1,1995-01-01,0.584,0.983,9,-5.397,0,0.0688,0.00285,0.875,0.174,0.323,131.805,243360,A,minor,A minor
+Nine Inch Nails,Further Down The Spiral,"The Art Of Self Destruction, Part One",2,1995-01-01,0.503,0.831,2,-10.466,1,0.0779,0.00289,0.645,0.111,0.0879,99.961,341733,D,major,D major
+Nine Inch Nails,Further Down The Spiral,Self Destruction - Part Three,3,1995-01-01,0.373,0.841,0,-9.043,1,0.0639,1.49e-4,0.828,0.412,0.255,199.831,208533,C,major,C major
+Nine Inch Nails,Further Down The Spiral,Heresy,4,1995-01-01,0.591,0.822,1,-8.179,1,0.0441,5.14e-4,0.838,0.537,0.694,114.988,319866,C#,major,C# major
+Nine Inch Nails,Further Down The Spiral,The Downward Spiral (The Bottom),5,1995-01-01,0.605,0.848,2,-10.268,1,0.132,0.224,0.768,0.0719,0.313,100.413,449200,D,major,D major
+Nine Inch Nails,Further Down The Spiral,Hurt (Quiet),6,1995-01-01,0.464,0.363,9,-12.085,1,0.0335,0.744,0.0271,0.937,0.121,80.048,307040,A,major,A major
+Nine Inch Nails,Further Down The Spiral,At The Heart Of It All,7,1995-01-01,0.458,0.727,4,-12.524,0,0.23,0.293,0.208,0.301,0.0631,122.183,428760,E,minor,E minor
+Nine Inch Nails,Further Down The Spiral,Ruiner,8,1995-01-01,0.691,0.853,2,-8.375,1,0.058,0.0167,0.00992,0.0858,0.391,116.017,335773,D,major,D major
+Nine Inch Nails,Further Down The Spiral,Eraser (Denial: Realization),9,1995-01-01,0.532,0.945,9,-9.118,0,0.0436,0.00326,0.956,0.377,0.399,130.015,398533,A,minor,A minor
+Nine Inch Nails,Further Down The Spiral,"Self Destruction, Final",10,1995-01-01,0.54,0.963,2,-7.769,1,0.0895,9.27e-5,0.837,0.117,0.0694,99.899,594533,D,major,D major
+Nine Inch Nails,Further Down The Spiral,Piggy (Nothing Can Stop Me Now),1,1995,0.593,0.985,9,-5.401,0,0.0748,0.00327,0.896,0.208,0.282,131.784,242602,A,minor,A minor
+Nine Inch Nails,Further Down The Spiral,"The Art Of Self Destruction, Part One",2,1995,0.273,0.808,2,-10.501,1,0.0868,0.00421,0.691,0.111,0.0887,100.024,341773,D,major,D major
+Nine Inch Nails,Further Down The Spiral,"Self Destruction, Part Two",3,1995,0.548,0.919,10,-7.426,0,0.0815,2.89e-4,0.863,0.144,0.411,99.921,337360,A#,minor,A# minor
+Nine Inch Nails,Further Down The Spiral,The Downward Spiral (The Bottom),4,1995,0.691,0.804,11,-11.502,0,0.143,0.235,0.779,0.371,0.343,100.427,357500,B,minor,B minor
+Nine Inch Nails,Further Down The Spiral,Hurt (Quiet),5,1995,0.613,0.218,11,-11.97,0,0.0264,0.582,0.00459,0.126,0.0563,79.991,308493,B,minor,B minor
+Nine Inch Nails,Further Down The Spiral,Eraser (Denial: Realization),6,1995,0.533,0.939,0,-9.076,1,0.0442,0.00225,0.955,0.342,0.386,130.001,393440,C,major,C major
+Nine Inch Nails,Further Down The Spiral,At The Heart Of It All,7,1995,0.473,0.817,4,-10.26,0,0.222,0.286,0.14,0.113,0.109,122.23,370250,E,minor,E minor
+Nine Inch Nails,Further Down The Spiral,Eraser (Polite),8,1995,0.133,0.0967,5,-18.212,0,0.0345,0.893,2.59e-5,0.131,0.217,168.246,75511,F,minor,F minor
+Nine Inch Nails,Further Down The Spiral,"Self Destruction, Final",9,1995,0.577,0.896,10,-9.375,0,0.0792,2.13e-4,0.809,0.117,0.115,99.921,341250,A#,minor,A# minor
+Nine Inch Nails,Further Down The Spiral,The Beauty Of Being Numb,10,1995,0.246,0.524,1,-13.061,1,0.196,0.513,0.346,0.434,0.225,176.326,300500,C#,major,C# major
+Nine Inch Nails,Further Down The Spiral,"Erased, Over, Out",11,1995,0.454,0.775,1,-9.119,1,0.0382,0.918,0.694,0.333,0.126,130.08,360773,C#,major,C# major
+Nine Inch Nails,Closer To God,Closer To God,1,1994-06-10,0.601,0.799,10,-8.811,0,0.0504,8.81e-6,0.578,0.221,0.449,117.891,305693,A#,minor,A# minor
+Nine Inch Nails,Closer To God,Closer (Precursor),2,1994-06-10,0.4,0.53,10,-13.954,0,0.0711,0.0204,0.188,0.114,0.306,90.024,436133,A#,minor,A# minor
+Nine Inch Nails,Closer To God,Closer (Deviation),3,1994-06-10,0.681,0.836,1,-7.853,1,0.0611,9.14e-4,0.0933,0.333,0.541,90.177,375573,C#,major,C# major
+Nine Inch Nails,Closer To God,Heresy (Blind),4,1994-06-10,0.694,0.836,1,-7.438,1,0.0543,0.00278,0.705,0.822,0.127,114.87,332788,C#,major,C# major
+Nine Inch Nails,Closer To God,Memorabilia,5,1994-06-10,0.612,0.988,5,-7.002,1,0.0759,0.177,0.354,0.138,0.333,133.849,441666,F,major,F major
+Nine Inch Nails,Closer To God,Closer (Internal),6,1994-06-10,0.575,0.882,1,-12.603,1,0.114,0.00601,0.0364,0.781,0.153,91.934,255605,C#,major,C# major
+Nine Inch Nails,Closer To God,March Of The Fuckheads,7,1994-06-10,0.688,0.912,10,-7.235,0,0.0437,4.53e-4,0.896,0.368,0.146,113.074,283360,A#,minor,A# minor
+Nine Inch Nails,Closer To God,Closer (Further Away),8,1994-06-10,0.47,0.728,5,-10.716,0,0.136,0.0045,0.737,0.646,0.174,91.911,345440,F,minor,F minor
+Nine Inch Nails,Closer To God,Closer,9,1994-06-10,0.578,0.626,10,-10.437,0,0.0418,2.84e-4,0.76,0.374,0.534,89.991,386333,A#,minor,A# minor
+Nine Inch Nails,The Downward Spiral,Mr. Self Destruct,1,1994-01-01,0.258,0.877,2,-8.702,1,0.101,0.0115,0.792,0.64,0.242,99.554,272760,D,major,D major
+Nine Inch Nails,The Downward Spiral,Piggy,2,1994-01-01,0.728,0.444,9,-14.304,1,0.0506,0.00763,0.407,0.131,0.625,131.928,264573,A,major,A major
+Nine Inch Nails,The Downward Spiral,Heresy,3,1994-01-01,0.555,0.916,5,-6.084,1,0.118,2.55e-5,0.0712,0.122,0.157,114.998,234333,F,major,F major
+Nine Inch Nails,The Downward Spiral,March Of The Pigs,4,1994-01-01,0.519,0.912,2,-7.363,1,0.0572,0.0273,0.115,0.0831,0.0566,134.454,178493,D,major,D major
+Nine Inch Nails,The Downward Spiral,Closer,5,1994-01-01,0.567,0.717,10,-8.606,0,0.044,3.51e-4,0.547,0.111,0.509,90.005,373191,A#,minor,A# minor
+Nine Inch Nails,The Downward Spiral,Ruiner,6,1994-01-01,0.535,0.958,7,-7.827,1,0.0654,2.21e-4,0.472,0.286,0.0711,116.655,296973,G,major,G major
+Nine Inch Nails,The Downward Spiral,The Becoming,7,1994-01-01,0.567,0.928,0,-10.168,1,0.0376,0.00719,0.00279,0.349,0.642,149.858,333360,C,major,C major
+Nine Inch Nails,The Downward Spiral,I Do Not Want This,8,1994-01-01,0.601,0.921,4,-7.948,1,0.0917,0.0251,0.057,0.133,0.107,117.914,341200,E,major,E major
+Nine Inch Nails,The Downward Spiral,Big Man With A Gun,9,1994-01-01,0.348,0.986,2,-4.122,1,0.12,5.08e-4,0.0506,0.511,0.351,199.88,96130,D,major,D major
+Nine Inch Nails,The Downward Spiral,A Warm Place,10,1994-01-01,0.232,0.104,0,-28.886,0,0.036,0.762,0.866,0.0966,0.109,139.263,203626,C,minor,C minor
+Nine Inch Nails,The Downward Spiral,Eraser,11,1994-01-01,0.711,0.936,5,-9.059,0,0.0342,0.0517,0.804,0.698,0.519,130.014,293200,F,minor,F minor
+Nine Inch Nails,The Downward Spiral,Reptile,12,1994-01-01,0.627,0.887,7,-8.138,1,0.0548,0.00735,0.0502,0.372,0.0625,127.874,411800,G,major,G major
+Nine Inch Nails,The Downward Spiral,The Downward Spiral,13,1994-01-01,0.496,0.348,2,-17.254,1,0.0421,0.976,0.917,0.0961,0.217,100.533,236866,D,major,D major
+Nine Inch Nails,The Downward Spiral,Hurt,14,1994-01-01,0.528,0.183,11,-17.491,0,0.0335,0.67,0.0293,0.135,0.0824,79.95,374440,B,minor,B minor
+Nine Inch Nails,The Downward Spiral,Mr. Self Destruct,1,1994-01-01,0.471,0.889,2,-8.7,1,0.0707,0.00933,0.801,0.4,0.26,99.924,270066,D,major,D major
+Nine Inch Nails,The Downward Spiral,Piggy,2,1994-01-01,0.706,0.42,11,-14.326,0,0.0813,0.00844,0.228,0.104,0.553,131.903,264533,B,minor,B minor
+Nine Inch Nails,The Downward Spiral,Heresy,3,1994-01-01,0.565,0.908,5,-6.013,1,0.112,2.97e-5,0.031,0.0682,0.195,115.002,234253,F,major,F major
+Nine Inch Nails,The Downward Spiral,March Of The Pigs,4,1994-01-01,0.507,0.857,2,-7.409,1,0.0452,0.0321,0.0759,0.103,0.0781,134.423,178640,D,major,D major
+Nine Inch Nails,The Downward Spiral,Closer,5,1994-01-01,0.585,0.718,10,-8.636,0,0.0416,3.11e-4,0.509,0.583,0.573,90.009,373000,A#,minor,A# minor
+Nine Inch Nails,The Downward Spiral,Ruiner,6,1994-01-01,0.536,0.955,4,-7.89,0,0.0718,2.34e-4,0.485,0.109,0.0712,116.665,296600,E,minor,E minor
+Nine Inch Nails,The Downward Spiral,The Becoming,7,1994-01-01,0.571,0.915,0,-10.119,1,0.053900000000000003,0.00961,0.0018600000000000001,0.206,0.578,149.872,330500,C,major,C major
+Nine Inch Nails,The Downward Spiral,I Do Not Want This,8,1994-01-01,0.601,0.917,4,-7.967,1,0.111,0.0223,0.0612,0.102,0.11,117.892,341240,E,major,E major
+Nine Inch Nails,The Downward Spiral,Big Man With A Gun,9,1994-01-01,0.474,0.988,2,-4.546,1,0.0848,4.68e-4,0.00979,0.602,0.368,99.905,96160,D,major,D major
+Nine Inch Nails,The Downward Spiral,A Warm Place,10,1994-01-01,0.228,0.114,0,-28.883,0,0.0351,0.758,0.829,0.0678,0.0721,139.745,202866,C,minor,C minor
+Nine Inch Nails,The Downward Spiral,Eraser,11,1994-01-01,0.708,0.946,6,-8.998,1,0.0334,0.0636,0.739,0.774,0.492,130.008,292250,F#,major,F# major
+Nine Inch Nails,The Downward Spiral,Reptile,12,1994-01-01,0.622,0.893,7,-8.163,1,0.051,0.00923,0.0607,0.313,0.0654,127.928,410750,G,major,G major
+Nine Inch Nails,The Downward Spiral,The Downward Spiral,13,1994-01-01,0.313,0.346,4,-17.315,1,0.0468,0.974,0.944,0.113,0.222,101.587,236893,E,major,E major
+Nine Inch Nails,The Downward Spiral,Hurt,14,1994-01-01,0.459,0.177,11,-17.531,0,0.035,0.788,0.0557,0.115,0.0681,79.924,375933,B,minor,B minor
+Nine Inch Nails,Broken,Pinion,1,1992-01-01,0.434,0.0231,0,-33.202,0,0.0328,0.0165,0.896,0.303,0.0956,58.041,63160,C,minor,C minor
+Nine Inch Nails,Broken,Wish,2,1992-01-01,0.537,0.983,7,-7.126,1,0.0859,4.18e-4,0.569,0.692,0.177,135.017,226733,G,major,G major
+Nine Inch Nails,Broken,Last,3,1992-01-01,0.488,0.953,2,-6.074,1,0.0482,2.58e-4,0.0481,0.406,0.503,90.005,284573,D,major,D major
+Nine Inch Nails,Broken,Help Me I Am In Hell,4,1992-01-01,0.658,0.153,9,-23.295,1,0.0455,0.779,0.922,0.113,0.21,147.959,116200,A,major,A major
+Nine Inch Nails,Broken,Happiness In Slavery,5,1992-01-01,0.307,0.987,10,-7.481,0,0.0819,7.65e-5,0.791,0.329,0.274,119.881,321093,A#,minor,A# minor
+Nine Inch Nails,Broken,Gave Up,6,1992-01-01,0.535,0.905,11,-8.261,1,0.0663,2.54e-4,0.654,0.689,0.181,143.958,248573,B,major,B major
+Nine Inch Nails,Broken,Physical (You're So),7,1992-01-01,0.374,0.8,4,-8.237,1,0.0362,7.77e-4,0.135,0.143,0.18,159.805,329866,E,major,E major
+Nine Inch Nails,Broken,Suck,8,1992-01-01,0.607,0.615,4,-9.703,0,0.115,0.00512,0.452,0.0416,0.357,182.041,307866,E,minor,E minor
+Nine Inch Nails,Fixed,Gave Up - Remix,1,1992-01-01,0.578,0.983,6,-10.804,1,0.0836,1.35e-4,0.286,0.171,0.164,143.547,322466,F#,major,F# major
+Nine Inch Nails,Fixed,Wish - Remix,2,1992-01-01,0.48,0.923,7,-10.714,1,0.0511,6.96e-4,0.798,0.128,0.307,135.113,548000,G,major,G major
+Nine Inch Nails,Fixed,Happiness In Slavery - Remix,3,1992-01-01,0.572,0.88,0,-10.254,1,0.0621,9.16e-4,0.742,0.724,0.119,119.873,368800,C,major,C major
+Nine Inch Nails,Fixed,Throw This Away,4,1992-01-01,0.45,0.553,4,-13.153,1,0.122,0.359,0.861,0.103,0.0679,179.721,254000,E,major,E major
+Nine Inch Nails,Fixed,Fist F**k - Remix,5,1992-01-01,0.289,0.973,4,-9.947,0,0.0844,0.0318,0.893,0.768,0.0548,136.626,439293,E,minor,E minor
+Nine Inch Nails,Fixed,Screaming Slave,6,1992-01-01,0.311,0.934,10,-10.378,0,0.267,0.00258,0.65,0.848,0.0359,119.859,480333,A#,minor,A# minor
+Nine Inch Nails,Fixed,Gave Up,1,1992-01-01,0.567,0.986,6,-10.823,1,0.0701,1.29e-4,0.273,0.431,0.182,143.505,324173,F#,major,F# major
+Nine Inch Nails,Fixed,Wish,2,1992-01-01,0.476,0.935,7,-10.762,1,0.0489,6.78e-4,0.815,0.0872,0.273,135.072,549426,G,major,G major
+Nine Inch Nails,Fixed,Happiness In Slavery,3,1992-01-01,0.552,0.876,0,-10.31,1,0.0633,7.26e-4,0.739,0.655,0.116,119.882,368800,C,major,C major
+Nine Inch Nails,Fixed,Throw This Away,4,1992-01-01,0.426,0.544,4,-13.188,1,0.125,0.354,0.875,0.156,0.0688,179.552,254000,E,major,E major
+Nine Inch Nails,Fixed,First Fuck,5,1992-01-01,0.249,0.969,4,-10.073,0,0.0842,0.0399,0.902,0.439,0.0394,93.206,439600,E,minor,E minor
+Nine Inch Nails,Fixed,Screaming Slave,6,1992-01-01,0.322,0.949,10,-10.426,0,0.276,0.00211,0.422,0.801,0.0343,119.87,482000,A#,minor,A# minor
+Nine Inch Nails,Head Like a Hole,Head Like A Hole - Slate,1,1990-03-22,0.671,0.866,6,-13.047,0,0.0424,0.18,3.59e-4,0.321,0.791,115.641,258800,F#,minor,F# minor
+Nine Inch Nails,Head Like a Hole,Head Like a Hole - Clay,2,1990-03-22,0.643,0.704,9,-13.656,1,0.0322,0.0126,1.02e-4,0.285,0.427,115.259,274373,A,major,A major
+Nine Inch Nails,Head Like a Hole,Terrible Lie - Sympathetic Mix,3,1990-03-22,0.548,0.702,1,-15.455,0,0.0577,0.0213,0.0756,0.259,0.645,176.092,271826,C#,minor,C# minor
+Nine Inch Nails,Head Like a Hole,Head Like A Hole - Copper,4,1990-03-22,0.692,0.858,6,-13.573,0,0.0509,0.0807,5.95e-4,0.0399,0.714,115.636,386066,F#,minor,F# minor
+Nine Inch Nails,Head Like a Hole,You Know Who You Are,5,1990-03-22,0.738,0.87,11,-15.998,0,0.0457,0.0544,0.905,0.119,0.394,115.598,342600,B,minor,B minor
+Nine Inch Nails,Head Like a Hole,Head Like a Hole - Soil,6,1990-03-22,0.746,0.887,6,-13.179,0,0.0424,0.139,0.0137,0.835,0.619,115.515,398733,F#,minor,F# minor
+Nine Inch Nails,Head Like a Hole,Terrible Lie - Empathetic Mix,7,1990-03-22,0.545,0.673,11,-14.757,0,0.0679,0.0151,0.0637,0.284,0.685,176.119,377400,B,minor,B minor
+Nine Inch Nails,Head Like a Hole,Down In It - Shred,8,1990-03-22,0.67,0.558,4,-15.03,0,0.14,7.1e-4,0.68,0.159,0.175,104.016,420240,E,minor,E minor
+Nine Inch Nails,Head Like a Hole,Down In It - Singe,9,1990-03-22,0.773,0.535,11,-17.674,0,0.0835,0.00832,0.702,0.0725,0.149,104.033,441360,B,minor,B minor
+Nine Inch Nails,Head Like a Hole,Down In It - Demo,10,1990-03-22,0.74,0.818,2,-13.118,1,0.057,0.0833,0.608,0.317,0.705,104.003,232266,D,major,D major
+Nine Inch Nails,Pretty Hate Machine,Head Like A Hole,1,1989-10-20,0.668,0.803,9,-11.282,1,0.0459,0.0091,0.00182,0.571,0.423,115.386,299640,A,major,A major
+Nine Inch Nails,Pretty Hate Machine,Terrible Lie,2,1989-10-20,0.61,0.606,6,-12.508,1,0.0429,6.85e-4,0.0746,0.294,0.477,87.942,278960,F#,major,F# major
+Nine Inch Nails,Pretty Hate Machine,Down In It,3,1989-10-20,0.619,0.723,4,-11.836,0,0.11,3.54e-4,0.646,0.163,0.492,104.04,226400,E,minor,E minor
+Nine Inch Nails,Pretty Hate Machine,Sanctified,4,1989-10-20,0.717,0.478,9,-16.107,1,0.0335,0.11,0.103,0.145,0.915,107.038,348400,A,major,A major
+Nine Inch Nails,Pretty Hate Machine,Something I Can Never Have,5,1989-10-20,0.501,0.131,5,-16.824,1,0.0302,0.815,6.12e-5,0.111,0.0391,108.051,354933,F,major,F major
+Nine Inch Nails,Pretty Hate Machine,Kinda I Want To,6,1989-10-20,0.61,0.94,6,-11.093,0,0.0678,0.0173,0.826,0.949,0.563,104.068,273106,F#,minor,F# minor
+Nine Inch Nails,Pretty Hate Machine,Sin,7,1989-10-20,0.63,0.865,11,-10.824,1,0.052,9.66e-4,0.607,0.817,0.735,128.437,246333,B,major,B major
+Nine Inch Nails,Pretty Hate Machine,That's What I Get,8,1989-10-20,0.67,0.681,0,-10.45,1,0.0434,0.0125,0.167,0.388,0.289,112.04,270800,C,major,C major
+Nine Inch Nails,Pretty Hate Machine,The Only Time,9,1989-10-20,0.682,0.675,9,-10.35,1,0.0379,0.00167,0.0192,0.0532,0.708,94.285,287760,A,major,A major
+Nine Inch Nails,Pretty Hate Machine,Ringfinger,10,1989-10-20,0.74,0.824,10,-12.393,0,0.0792,0.0036,0.339,0.568,0.658,113.061,340866,A#,minor,A# minor
+Nine Inch Nails,Pretty Hate Machine,Head Like A Hole,1,1989-01-01,0.669,0.824,9,-12.07,1,0.0475,0.0111,0.00184,0.572,0.471,115.383,299533,A,major,A major
+Nine Inch Nails,Pretty Hate Machine,Terrible Lie,2,1989-01-01,0.579,0.578,6,-13.281,1,0.0584,0.00119,0.0939,0.405,0.488,88.028,277466,F#,major,F# major
+Nine Inch Nails,Pretty Hate Machine,Down In It,3,1989-01-01,0.653,0.746,4,-11.045,0,0.12,3.79e-4,0.695,0.116,0.488,104.062,226506,E,minor,E minor
+Nine Inch Nails,Pretty Hate Machine,Sanctified,4,1989-01-01,0.728,0.49,9,-15.393,1,0.0354,0.142,0.094,0.153,0.908,107.036,348293,A,major,A major
+Nine Inch Nails,Pretty Hate Machine,Something I Can Never Have,5,1989-01-01,0.479,0.109,5,-17.572,1,0.0315,0.838,5.3e-5,0.111,0.0397,108.053,352706,F,major,F major
+Nine Inch Nails,Pretty Hate Machine,Kinda I Want To,6,1989-01-01,0.618,0.934,6,-11.871,0,0.0581,0.0253,0.705,0.942,0.52,104.078,274333,F#,minor,F# minor
+Nine Inch Nails,Pretty Hate Machine,Sin,7,1989-01-01,0.63,0.87,11,-10.588,1,0.0494,0.00148,0.681,0.93,0.82,128.447,243000,B,major,B major
+Nine Inch Nails,Pretty Hate Machine,That's What I Get,8,1989-01-01,0.665,0.711,0,-10.069,1,0.0445,0.0171,0.292,0.426,0.323,112.056,268826,C,major,C major
+Nine Inch Nails,Pretty Hate Machine,The Only Time,9,1989-01-01,0.562,0.665,9,-11.23,1,0.0644,0.00336,0.011,0.0653,0.726,188.574,287773,A,major,A major
+Nine Inch Nails,Pretty Hate Machine,Ringfinger,10,1989-01-01,0.746,0.795,1,-13.058,1,0.0776,0.00524,0.247,0.53,0.669,113.061,342066,C#,major,C# major
