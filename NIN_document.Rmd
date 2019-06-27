@@ -16,11 +16,11 @@ This led me to ask two questions about the NIN.
   
   *Hypothiesis One: As Trent Reznor and NIN aged; the musical positivity, measured as valence, increased over time.*
 
-The other question has to do with Head Like a Hole in particular, as that was my gateway into NIN. There have been plenty of covers of this song since it came out, cough cough in 1989. According to Second Hand Songs[https://secondhandsongs.com/performance/1086/versions#nav-entity] there are 20 cover versions of Head Like a Hole. 
+The other question has to do with Head Like a Hole in particular, as that was my gateway into NIN. There have been plenty of covers of this song since it came out, cough cough in 1989. According to [Second Hand Songs](https://secondhandsongs.com/performance/1086/versions#nav-entity)there are 20 cover versions of Head Like a Hole. 
 
   *Hypothesis Two: Do the cover versions maintain the same musical positivity, measured as valence, as the original?*
   
-In order to test these two hypothesis we will use the R package SpotifyR[https://github.com/charlie86/spotifyr]. 
+In order to test these two hypothesis we will use the R package [SpotifyR](https://github.com/charlie86/spotifyr). 
 
 ```{r warning=FALSE, include=FALSE}
 #remotes::install_github('charlie86/spotifyr')
@@ -34,12 +34,9 @@ library(lubridate)
 library(zoo)
 ```
 
-Access tokens
-```{r eval=FALSE, include=FALSE}
-Sys.setenv(SPOTIFY_CLIENT_ID = '6d375c1d8d904765852f8a7e07f8758f')
-Sys.setenv(SPOTIFY_CLIENT_SECRET = 'e54289a3745943388ef262e60cd801b6')
-
-access_token <- get_spotify_access_token()
+Access token
+```{r}
+source("access_token.R")
 ```
 
 Get data for Nine Inch Nails
@@ -59,7 +56,7 @@ nin_tibble <- nin_data %>%
 write_csv(nin_tibble, "nin_audio_features_data.csv")
 ```
 
-```{r}
+```{r include=FALSE}
 # Read in the data from file
 nin_data <- read_csv("nin_audio_features_data.csv")
 ```
@@ -70,9 +67,9 @@ studio_albums <- c("Pretty Hate Machine","Broken","The Downward Spiral", "The Fr
                    "With Teeth", "Year Zero", "Ghosts I-IV", 
                    "The Slip", "Hesitation Marks" ,"Bad Witch") 
 ```
-  Limit the analysis to the nine standard studio albums and Broken. The nine studio albums are `r studio_albums` according to wikipedia[https://en.wikipedia.org/wiki/Nine_Inch_Nails_discography#Studio_albums]. It does not include bonus tracks.  There are some duplications in the dataset, which look like they stem from significant digit differences. We need to remove the duplicates. The duplicates are removed by using album_name and track_name. Don't use track number this would filter out multiple disks from a single album. Also convert the album_release_date which is a character into a Date format using lubridate. Also let's add Trent Reznors age.  
+  Limit the analysis to the nine standard studio albums and Broken. The nine studio albums are `r studio_albums` according to [wikipedia](https://en.wikipedia.org/wiki/Nine_Inch_Nails_discography#Studio_albums). It does not include bonus tracks.  There are some duplications in the dataset, which look like they stem from significant digit differences. We need to remove the duplicates. The duplicates are removed by using album_name and track_name. Don't use track number this would filter out multiple disks from a single album. Also convert the album_release_date which is a character into a Date format using lubridate. Also let's add Trent Reznors age.  
   First a little bit about what valence means as a positivity measure for a song. From my background valence is a term I remember from chemistry and physics. But in the Spotify world it has nothing to do with orbitals and electrons. This is how Spotify defines valence, 
-    "A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry)." The definition can be found in the API documentation[https://developer.spotify.com/documentation/web-api/reference/tracks/get-several-audio-features/]. So, valence is how the music makes me feel, not necessarily how the artist feels while they are making the music. Or is it? 
+    "A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry)." The definition can be found in  [Spotify documentation](https://developer.spotify.com/documentation/web-api/reference/tracks/get-several-audio-features/) So, valence is how the music makes me feel, not necessarily how the artist feels while they are making the music. Or is it? 
 
 
 ```{r}
@@ -93,25 +90,98 @@ nin_select_albums <-  nin_data %>%
                                          "78-81", "82-85")))
 ```
 
-plot valence data
+
+I picked the color pallete by using the Pretty Hate Machine [cover art](https://www.nin.wiki/images/4/40/PHMvinyl.jpg) and extracting the major hex colors using [color explorer](http://www.colorexplorer.com/imageimport.aspx)
+Nine in Nail fonts can be found [here](https://www.nindestruct.com/fonts.html). The extrafont package can only handle true type fonts .ttf so pick wisley. 
+
 ```{r}
+phm_colors <- c("#050718","#2a6e97", "#935498", "#2b8eba", "#cb0066")
+phm_ramp <- colorRampPalette(c(phm_colors[3], phm_colors[4]))(10)
+```
+plot valence data
+```{r message=FALSE}
 ggplot(data = nin_select_albums)+
-  geom_jitter(aes(x = lubridate::year(album_release_date), y = valence,
-                   color = album_name))+
-  geom_smooth(aes(x = lubridate::year(album_release_date), y = valence),
-              smooth = "loess")+
+ # geom_smooth(aes(x = lubridate::year(album_release_date), y = valence),
+            #  fill = phm_colors[3], color = phm_colors[5], alpha = 0.1, 
+             # method = "loess")+
+  geom_point(aes(x = lubridate::year(album_release_date), y = valence,
+                   color = album_name), 
+              fill = phm_colors[3],
+              color = phm_colors[5],
+              shape = 21, stat = 'echo', size = 1)+
   geom_boxplot(aes(x = lubridate::year(album_release_date), y = valence,
-                   color = album_name), alpha = 0.3, outlier.colour = "red")
+                   color = album_name),
+               alpha = 0.05 , 
+               outlier.color = "white",
+               outlier.alpha = 0.2,
+               outlier.size = 5)+
+  scale_color_manual(values = phm_ramp)+
+  scale_fill_manual(values = phm_ramp)+
+  xlab(label = "Year")+
+  theme_clean()+
+  theme(axis.text = element_text(color= phm_colors[2], 
+                                   family = "TheFragileBoldCaps",
+                                   size = 10),
+        axis.title = element_text(color = phm_colors[2], 
+                                   family = "TheFragileBoldCaps",
+                                   size = 10),
+        legend.position = "none",
+        panel.border = element_rect(color = phm_colors[4], fill = NA),
+        panel.background = element_rect(fill = phm_colors[1]))
 
 ```
-It might be a stretch but this plot reminds me of the happiness/ well being by age studies with the plataue and U bend in self reported happiness. Read up on the happiness study here [https://www.pnas.org/content/107/22/9985].  Since I don't have access to the original data I can use the WebPlotDigitizer[https://automeris.io/WebPlotDigitizer/] on the jpeg from the research paper, then download the .csv file and then read it into R. 
+
+Is the valence of the albums differnet. 
+
+1. Normal distributions for the valence of each album.
+From the output, the p-value > 0.05 implying that the distribution of the data are not significantly different from normal distribution. In other words, we can assume the normality.
 ```{r}
+nin_select_albums %>%
+  split(.$album_name) %>%
+  purrr::map(~ shapiro.test(.$valence)) %>%
+  purrr::map_dfr(~ broom::tidy(.), .id = 'Album') %>%
+  dplyr::mutate(p.value = round(p.value, 4),
+                normal = ifelse(p.value > 0.05, TRUE, FALSE)) %>%
+  dplyr::mutate(normal = kableExtra::cell_spec(normal, "html",
+                                               color = ifelse(normal == FALSE,
+                                                              "red", "black"))) %>%
+  kableExtra::kable(format = "html", escape = F) %>%
+  kableExtra::kable_styling() %>%
+  kableExtra::add_footnote(c(
+    "FALSE denotes a non-normal distribution of valenece for an album."))
+```
+
+We could test the variances of the group, but we can go ahead and use a non-parametric test. I want to see if the valence of the albums are actually different from each other. To do this we can use the Kruskal-Wallis test, which tests if the medians of populations are equal. 
+
+```{r}
+kruskal.test(valence ~ album_name, data = nin_select_albums) %>%
+  broom::tidy(.) %>% 
+  kableExtra::kable() %>%
+  kableExtra::kable_styling() 
+```
+The p-value indicates that we should have a further look, that the valence of some of the albums might be different from each other. In order to detect which ones are different we can use 
+
+```{r}
+pairwise.wilcox.test(nin_select_albums$valence, 
+                    nin_select_albums$album_name, p.adj = "bonf") %>%
+  broom::tidy(.) %>% 
+  dplyr::filter(p.value < 0.8) %>%
+  dplyr::arrange(p.value) %>%
+  kableExtra::kable() %>%
+  kableExtra::kable_styling() 
+``` 
+
+
+```
+
+It might be a stretch but this plot reminds me of the happiness/ well being by age studies with the plataue and U bend in self reported happiness. Read up on the [happiness study](https://www.pnas.org/content/107/22/9985).  Since I don't have access to the original data I can use the [WebPlotDigitizer](https://automeris.io/WebPlotDigitizer/) on the jpeg from the research paper, then download the .csv file and then read it into R. 
+```{r include=FALSE}
 happiness_data <- read_delim("happiness_data.csv", ";", escape_double = FALSE, 
                              trim_ws = TRUE) %>% select(Level, four_year_bins, WB_Ladder)
 ```
 
 
-```{r}
+```{r message=FALSE, warning=FALSE}
 trent_happy_plot <- nin_select_albums %>%
   group_by(four_year_bins)%>%
   mutate(mean_valence = mean(valence, na.rm = TRUE))%>%
@@ -136,14 +206,8 @@ trent_happy_plot[9, "value"] <- missing_val[9]
 ```
 
 
-I picked the color pallete by using the Pretty Hate Machine cover art [https://www.nin.wiki/images/4/40/PHMvinyl.jpg]and extracting the major hex colors using color explorer[http://www.colorexplorer.com/imageimport.aspx] 
-Nine in Nail fonts can be found here[https://www.nindestruct.com/fonts.html]. The extrafont package can only handle true type fonts .ttf so pick wisley. 
 
-```{r}
-phm_colors <- c("#050718","#2a6e97", "#935498", "#2b8eba", "#cb0066")
-```
-
-```{r}
+```{r message=FALSE, warning=FALSE}
 ggplot()+
   geom_line(aes(Level, value), na.rm = FALSE, color = phm_colors[4],
             stat = 'echo', size = 0.4,
@@ -183,23 +247,3 @@ ggplot()+
 
 Will NIN albums make us feel happier in the future? 
 
-```{r}
-
-trent_glm <- glm(Trent_Reznor_age ~ valence + danceability + energy + tempo, 
-                 data = nin_select_albums)
-plot(trent_glm)
-```
-
-```{r}
-library(gam)
-```
-
-```{r}
-trent_gam <- gam(Trent_Reznor_age ~ valence , 
-                 data = nin_select_albums)
-
-```
-
-```{r}
-plot(trent_gam, se = TRUE)
-```
