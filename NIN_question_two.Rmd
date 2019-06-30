@@ -1,0 +1,16 @@
+---
+title: "Untitled"
+author: "Nissa Ferm"
+date: "6/29/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+The other question has to do with Head Like a Hole in particular, as that was my gateway into NIN. There have been plenty of covers of this song since it came out (cough, cough) in 1989. According to [Second Hand Songs](https://secondhandsongs.com/performance/1086/versions#nav-entity)there are 20 cover versions of Head Like a Hole. 
+
+  **Hypothesis Two: Do the cover versions maintain the same musical positivity, measured as valence, as the original?**
