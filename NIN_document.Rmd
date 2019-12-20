@@ -1,5 +1,10 @@
 ---
-output: html_document
+always_allow_html: true
+output:
+  github_document:
+    fig_width: 8
+    fig_height: 6
+    dev: png
 ---
 
 ```{r setup, include=FALSE}
@@ -73,7 +78,7 @@ studio_albums <- c("Pretty Hate Machine","Broken","The Downward Spiral", "The Fr
                    "The Slip", "Hesitation Marks" ,"Bad Witch") 
 ```
 <font style="font-family: helvetica; font-size:12pt"> 
-In order to answer my question I used the R package [spotifyr](https://github.com/charlie86/spotifyr), to retrieve the data from Spotify. Check the link if you want to know more about the spotifyr package and how set up a dev account with Spotify. Also, if you want to see all the R code for this document and analysis visit my [Github repo](). I limited the analysis to the nine standard studio albums and Broken. The [ten albums](https://en.wikipedia.org/wiki/Nine_Inch_Nails_discography#Studio_albums) are `r studio_albums[1:9]`, and `r studio_albums[10]`. With data in hand, I needed to do a little cleaning. I found some instances of duplication in the data-set. The duplication seemed to stem from significant digit rounding which created duplicate entries for some of the calculated metrics. I removed the duplicates by using album_name and track_name. I didn't use track number as this would filter out tracks from a double album.  
+In order to answer my question I used the R package [spotifyr](https://github.com/charlie86/spotifyr), to retrieve the data from Spotify. Check the link if you want to know more about the spotifyr package and how set up a dev account with Spotify. Also, if you want to see all the R code for this document and analysis visit my [Github repo](https://github.com/Copepoda/NIN_album_project). I limited the analysis to the nine standard studio albums and Broken. The [ten albums](https://en.wikipedia.org/wiki/Nine_Inch_Nails_discography#Studio_albums) are `r studio_albums[1:9]`, and `r studio_albums[10]`. With data in hand, I needed to do a little cleaning. I found some instances of duplication in the data-set. The duplication seemed to stem from significant digit rounding which created duplicate entries for some of the calculated metrics. I removed the duplicates by using album_name and track_name. I didn't use track number as this would filter out tracks from a double album.  
 
 For this type of data a box plot is appropriate. Box plots allow us to visualize the relative difference in distribution of valence between the albums. The bar in the middle of the box represents the [median](https://www.mathsisfun.com/median.html) valence of the album, while the upper and lower bounds of the box correspond to the 25th and 75th percentiles. This means 50% of the data fall within the box and data that are beyond the whiskers are outliers. I've also added the individual track valence values for the albums, so each point on the plot represents the valence of a track from an album. 
   
